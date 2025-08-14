@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\juanh25\\source\\repos\\Runcard\\Final Inspection Networking\\FinalInspection Networking\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D043DF37-F4BA-46C8-B430-FAAF693AD3BA}|FinalInspectionKia\\FinalNetworking.csproj|C:\\Users\\juanh25\\source\\repos\\Runcard\\Final Inspection Networking\\FinalInspection Networking\\finalinspectionkia\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D043DF37-F4BA-46C8-B430-FAAF693AD3BA}|FinalInspectionKia\\FinalNetworking.csproj|solutionrelative:finalinspectionkia\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D043DF37-F4BA-46C8-B430-FAAF693AD3BA}|FinalInspectionKia\\FinalNetworking.csproj|C:\\Users\\juanh25\\source\\repos\\Runcard\\Final Inspection Networking\\FinalInspection Networking\\finalinspectionkia\\config.ini||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{D043DF37-F4BA-46C8-B430-FAAF693AD3BA}|FinalInspectionKia\\FinalNetworking.csproj|solutionrelative:finalinspectionkia\\config.ini||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D043DF37-F4BA-46C8-B430-FAAF693AD3BA}|FinalInspectionKia\\FinalNetworking.csproj|c:\\users\\juanh25\\source\\repos\\runcard\\final inspection networking\\finalinspection networking\\finalinspectionkia\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D043DF37-F4BA-46C8-B430-FAAF693AD3BA}|FinalInspectionKia\\FinalNetworking.csproj|solutionrelative:finalinspectionkia\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D043DF37-F4BA-46C8-B430-FAAF693AD3BA}|FinalInspectionKia\\FinalInspectionKia.csproj|C:\\Users\\juanh25\\source\\repos\\Runcard\\Final Inspection Networking\\FinalInspection Networking\\finalinspectionkia\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D043DF37-F4BA-46C8-B430-FAAF693AD3BA}|FinalInspectionKia\\FinalInspectionKia.csproj|solutionrelative:finalinspectionkia\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D043DF37-F4BA-46C8-B430-FAAF693AD3BA}|FinalInspectionKia\\FinalNetworking.csproj|c:\\users\\juanh25\\source\\repos\\runcard\\final inspection networking\\finalinspection networking\\finalinspectionkia\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D043DF37-F4BA-46C8-B430-FAAF693AD3BA}|FinalInspectionKia\\FinalNetworking.csproj|solutionrelative:finalinspectionkia\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|FinalNetworking||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D043DF37-F4BA-46C8-B430-FAAF693AD3BA}|FinalInspectionKia\\FinalNetworking.csproj|C:\\Users\\juanh25\\source\\repos\\Runcard\\Final Inspection Networking\\FinalInspection Networking\\finalinspectionkia\\clases\\runcardmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D043DF37-F4BA-46C8-B430-FAAF693AD3BA}|FinalInspectionKia\\FinalNetworking.csproj|solutionrelative:finalinspectionkia\\clases\\runcardmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\juanh25\\source\\repos\\Runcard\\Final Inspection Networking\\FinalInspection Networking\\FinalInspectionKia\\Form1.cs",
+              "RelativeDocumentMoniker": "FinalInspectionKia\\Form1.cs",
+              "ToolTip": "C:\\Users\\juanh25\\source\\repos\\Runcard\\Final Inspection Networking\\FinalInspection Networking\\FinalInspectionKia\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FinalInspectionKia\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T00:09:55.561Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FinalNetworking",
+              "DocumentMoniker": "C:\\Users\\juanh25\\source\\repos\\Runcard\\Final Inspection Networking\\FinalInspection Networking\\FinalInspectionKia\\FinalNetworking.csproj",
+              "RelativeDocumentMoniker": "FinalInspectionKia\\FinalNetworking.csproj",
+              "ToolTip": "C:\\Users\\juanh25\\source\\repos\\Runcard\\Final Inspection Networking\\FinalInspection Networking\\FinalInspectionKia\\FinalNetworking.csproj",
+              "RelativeToolTip": "FinalInspectionKia\\FinalNetworking.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-13T22:06:59.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\juanh25\\source\\repos\\Runcard\\Final Inspection Networking\\FinalInspection Networking\\FinalInspectionKia\\Login.cs",
+              "RelativeDocumentMoniker": "FinalInspectionKia\\Login.cs",
+              "ToolTip": "C:\\Users\\juanh25\\source\\repos\\Runcard\\Final Inspection Networking\\FinalInspection Networking\\FinalInspectionKia\\Login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FinalInspectionKia\\Login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T20:55:22.682Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "config.ini",
+              "DocumentMoniker": "C:\\Users\\juanh25\\source\\repos\\Runcard\\Final Inspection Networking\\FinalInspection Networking\\FinalInspectionKia\\config.ini",
+              "RelativeDocumentMoniker": "FinalInspectionKia\\config.ini",
+              "ToolTip": "C:\\Users\\juanh25\\source\\repos\\Runcard\\Final Inspection Networking\\FinalInspection Networking\\FinalInspectionKia\\config.ini",
+              "RelativeToolTip": "FinalInspectionKia\\config.ini",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002768|",
+              "WhenOpened": "2025-08-13T20:53:51.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RuncardMethod.cs",
+              "DocumentMoniker": "C:\\Users\\juanh25\\source\\repos\\Runcard\\Final Inspection Networking\\FinalInspection Networking\\FinalInspectionKia\\Clases\\RuncardMethod.cs",
+              "RelativeDocumentMoniker": "FinalInspectionKia\\Clases\\RuncardMethod.cs",
+              "ToolTip": "C:\\Users\\juanh25\\source\\repos\\Runcard\\Final Inspection Networking\\FinalInspection Networking\\FinalInspectionKia\\Clases\\RuncardMethod.cs",
+              "RelativeToolTip": "FinalInspectionKia\\Clases\\RuncardMethod.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAewDgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T20:53:05.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\juanh25\\source\\repos\\Runcard\\Final Inspection Networking\\FinalInspection Networking\\FinalInspectionKia\\Form1.cs",
+              "RelativeDocumentMoniker": "FinalInspectionKia\\Form1.cs",
+              "ToolTip": "C:\\Users\\juanh25\\source\\repos\\Runcard\\Final Inspection Networking\\FinalInspection Networking\\FinalInspectionKia\\Form1.cs",
+              "RelativeToolTip": "FinalInspectionKia\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T20:50:26.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\juanh25\\source\\repos\\Runcard\\Final Inspection Networking\\FinalInspection Networking\\FinalInspectionKia\\Form1.cs",
+              "RelativeDocumentMoniker": "FinalInspectionKia\\Form1.cs",
+              "ToolTip": "C:\\Users\\juanh25\\source\\repos\\Runcard\\Final Inspection Networking\\FinalInspection Networking\\FinalInspectionKia\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FinalInspectionKia\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T20:50:14.947Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
