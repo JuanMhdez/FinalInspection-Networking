@@ -47,6 +47,8 @@ namespace FinalInspectionKia
                 Version ver = ApplicationDeployment.CurrentDeployment.CurrentVersion;
                 lblVersion.Text = ver.Major + "." + ver.Minor + "." + ver.Build + "." + ver.Revision;
             }
+
+            this.WindowState = FormWindowState.Maximized;
         }
 
 

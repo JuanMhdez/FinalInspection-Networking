@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FinalInspectionKia.Runcard {
+namespace FinalInspectionNET.Runcard {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -30,11 +30,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.getUnitStatusResponse getUnitStatus(FinalInspectionKia.Runcard.getUnitStatusRequest request);
+        FinalInspectionNET.Runcard.getUnitStatusResponse getUnitStatus(FinalInspectionNET.Runcard.getUnitStatusRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#getUnitStatus", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.getUnitStatusResponse> getUnitStatusAsync(FinalInspectionKia.Runcard.getUnitStatusRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.getUnitStatusResponse> getUnitStatusAsync(FinalInspectionNET.Runcard.getUnitStatusRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#getUnitData", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -51,11 +51,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.getUnitDataResponse getUnitData(FinalInspectionKia.Runcard.getUnitDataRequest request);
+        FinalInspectionNET.Runcard.getUnitDataResponse getUnitData(FinalInspectionNET.Runcard.getUnitDataRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#getUnitData", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.getUnitDataResponse> getUnitDataAsync(FinalInspectionKia.Runcard.getUnitDataRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.getUnitDataResponse> getUnitDataAsync(FinalInspectionNET.Runcard.getUnitDataRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#getUnitTestConfig", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -72,11 +72,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.getUnitTestConfigResponse getUnitTestConfig(FinalInspectionKia.Runcard.getUnitTestConfigRequest request);
+        FinalInspectionNET.Runcard.getUnitTestConfigResponse getUnitTestConfig(FinalInspectionNET.Runcard.getUnitTestConfigRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#getUnitTestConfig", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.getUnitTestConfigResponse> getUnitTestConfigAsync(FinalInspectionKia.Runcard.getUnitTestConfigRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.getUnitTestConfigResponse> getUnitTestConfigAsync(FinalInspectionNET.Runcard.getUnitTestConfigRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#fetchWarehouseBinItems", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -93,11 +93,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.fetchWarehouseBinItemsResponse fetchWarehouseBinItems(FinalInspectionKia.Runcard.fetchWarehouseBinItemsRequest request);
+        FinalInspectionNET.Runcard.fetchWarehouseBinItemsResponse fetchWarehouseBinItems(FinalInspectionNET.Runcard.fetchWarehouseBinItemsRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#fetchWarehouseBinItems", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.fetchWarehouseBinItemsResponse> fetchWarehouseBinItemsAsync(FinalInspectionKia.Runcard.fetchWarehouseBinItemsRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.fetchWarehouseBinItemsResponse> fetchWarehouseBinItemsAsync(FinalInspectionNET.Runcard.fetchWarehouseBinItemsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#fetchInventoryItems", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -114,11 +114,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.fetchInventoryItemsResponse fetchInventoryItems(FinalInspectionKia.Runcard.fetchInventoryItemsRequest request);
+        FinalInspectionNET.Runcard.fetchInventoryItemsResponse fetchInventoryItems(FinalInspectionNET.Runcard.fetchInventoryItemsRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#fetchInventoryItems", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.fetchInventoryItemsResponse> fetchInventoryItemsAsync(FinalInspectionKia.Runcard.fetchInventoryItemsRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.fetchInventoryItemsResponse> fetchInventoryItemsAsync(FinalInspectionNET.Runcard.fetchInventoryItemsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#transactUnit", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -135,11 +135,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.transactUnitResponse transactUnit(FinalInspectionKia.Runcard.transactUnitRequest request);
+        FinalInspectionNET.Runcard.transactUnitResponse transactUnit(FinalInspectionNET.Runcard.transactUnitRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#transactUnit", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.transactUnitResponse> transactUnitAsync(FinalInspectionKia.Runcard.transactUnitRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.transactUnitResponse> transactUnitAsync(FinalInspectionNET.Runcard.transactUnitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#reworkUnit", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -156,11 +156,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.reworkUnitResponse reworkUnit(FinalInspectionKia.Runcard.reworkUnitRequest request);
+        FinalInspectionNET.Runcard.reworkUnitResponse reworkUnit(FinalInspectionNET.Runcard.reworkUnitRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#reworkUnit", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.reworkUnitResponse> reworkUnitAsync(FinalInspectionKia.Runcard.reworkUnitRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.reworkUnitResponse> reworkUnitAsync(FinalInspectionNET.Runcard.reworkUnitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#checkUserStatus", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -177,11 +177,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.checkUserStatusResponse checkUserStatus(FinalInspectionKia.Runcard.checkUserStatusRequest request);
+        FinalInspectionNET.Runcard.checkUserStatusResponse checkUserStatus(FinalInspectionNET.Runcard.checkUserStatusRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#checkUserStatus", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.checkUserStatusResponse> checkUserStatusAsync(FinalInspectionKia.Runcard.checkUserStatusRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.checkUserStatusResponse> checkUserStatusAsync(FinalInspectionNET.Runcard.checkUserStatusRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#getUnitBOMConsumption", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -198,11 +198,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.getUnitBOMConsumptionResponse getUnitBOMConsumption(FinalInspectionKia.Runcard.getUnitBOMConsumptionRequest request);
+        FinalInspectionNET.Runcard.getUnitBOMConsumptionResponse getUnitBOMConsumption(FinalInspectionNET.Runcard.getUnitBOMConsumptionRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#getUnitBOMConsumption", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.getUnitBOMConsumptionResponse> getUnitBOMConsumptionAsync(FinalInspectionKia.Runcard.getUnitBOMConsumptionRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.getUnitBOMConsumptionResponse> getUnitBOMConsumptionAsync(FinalInspectionNET.Runcard.getUnitBOMConsumptionRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#getWorkOrderStepInstructions", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -219,11 +219,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.getWorkOrderStepInstructionsResponse getWorkOrderStepInstructions(FinalInspectionKia.Runcard.getWorkOrderStepInstructionsRequest request);
+        FinalInspectionNET.Runcard.getWorkOrderStepInstructionsResponse getWorkOrderStepInstructions(FinalInspectionNET.Runcard.getWorkOrderStepInstructionsRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#getWorkOrderStepInstructions", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.getWorkOrderStepInstructionsResponse> getWorkOrderStepInstructionsAsync(FinalInspectionKia.Runcard.getWorkOrderStepInstructionsRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.getWorkOrderStepInstructionsResponse> getWorkOrderStepInstructionsAsync(FinalInspectionNET.Runcard.getWorkOrderStepInstructionsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#getDataInputFields", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -240,11 +240,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.getDataInputFieldsResponse getDataInputFields(FinalInspectionKia.Runcard.getDataInputFieldsRequest request);
+        FinalInspectionNET.Runcard.getDataInputFieldsResponse getDataInputFields(FinalInspectionNET.Runcard.getDataInputFieldsRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#getDataInputFields", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.getDataInputFieldsResponse> getDataInputFieldsAsync(FinalInspectionKia.Runcard.getDataInputFieldsRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.getDataInputFieldsResponse> getDataInputFieldsAsync(FinalInspectionNET.Runcard.getDataInputFieldsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#registerUnitToWorkOrder", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -261,11 +261,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.registerUnitToWorkOrderResponse registerUnitToWorkOrder(FinalInspectionKia.Runcard.registerUnitToWorkOrderRequest request);
+        FinalInspectionNET.Runcard.registerUnitToWorkOrderResponse registerUnitToWorkOrder(FinalInspectionNET.Runcard.registerUnitToWorkOrderRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#registerUnitToWorkOrder", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.registerUnitToWorkOrderResponse> registerUnitToWorkOrderAsync(FinalInspectionKia.Runcard.registerUnitToWorkOrderRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.registerUnitToWorkOrderResponse> registerUnitToWorkOrderAsync(FinalInspectionNET.Runcard.registerUnitToWorkOrderRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#getMachineStatus", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -282,11 +282,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.getMachineStatusResponse getMachineStatus(FinalInspectionKia.Runcard.getMachineStatusRequest request);
+        FinalInspectionNET.Runcard.getMachineStatusResponse getMachineStatus(FinalInspectionNET.Runcard.getMachineStatusRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#getMachineStatus", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.getMachineStatusResponse> getMachineStatusAsync(FinalInspectionKia.Runcard.getMachineStatusRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.getMachineStatusResponse> getMachineStatusAsync(FinalInspectionNET.Runcard.getMachineStatusRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#backFlushInventory", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -303,11 +303,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.backFlushInventoryResponse backFlushInventory(FinalInspectionKia.Runcard.backFlushInventoryRequest request);
+        FinalInspectionNET.Runcard.backFlushInventoryResponse backFlushInventory(FinalInspectionNET.Runcard.backFlushInventoryRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#backFlushInventory", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.backFlushInventoryResponse> backFlushInventoryAsync(FinalInspectionKia.Runcard.backFlushInventoryRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.backFlushInventoryResponse> backFlushInventoryAsync(FinalInspectionNET.Runcard.backFlushInventoryRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#getUnitBOMItems", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -324,11 +324,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.getUnitBOMItemsResponse getUnitBOMItems(FinalInspectionKia.Runcard.getUnitBOMItemsRequest request);
+        FinalInspectionNET.Runcard.getUnitBOMItemsResponse getUnitBOMItems(FinalInspectionNET.Runcard.getUnitBOMItemsRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#getUnitBOMItems", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.getUnitBOMItemsResponse> getUnitBOMItemsAsync(FinalInspectionKia.Runcard.getUnitBOMItemsRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.getUnitBOMItemsResponse> getUnitBOMItemsAsync(FinalInspectionNET.Runcard.getUnitBOMItemsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#updateUnitInventoryPartBin", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -345,11 +345,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.updateUnitInventoryPartBinResponse updateUnitInventoryPartBin(FinalInspectionKia.Runcard.updateUnitInventoryPartBinRequest request);
+        FinalInspectionNET.Runcard.updateUnitInventoryPartBinResponse updateUnitInventoryPartBin(FinalInspectionNET.Runcard.updateUnitInventoryPartBinRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#updateUnitInventoryPartBin", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.updateUnitInventoryPartBinResponse> updateUnitInventoryPartBinAsync(FinalInspectionKia.Runcard.updateUnitInventoryPartBinRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.updateUnitInventoryPartBinResponse> updateUnitInventoryPartBinAsync(FinalInspectionNET.Runcard.updateUnitInventoryPartBinRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#pickUnitToWorkOrder", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -366,11 +366,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.pickUnitToWorkOrderResponse pickUnitToWorkOrder(FinalInspectionKia.Runcard.pickUnitToWorkOrderRequest request);
+        FinalInspectionNET.Runcard.pickUnitToWorkOrderResponse pickUnitToWorkOrder(FinalInspectionNET.Runcard.pickUnitToWorkOrderRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#pickUnitToWorkOrder", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.pickUnitToWorkOrderResponse> pickUnitToWorkOrderAsync(FinalInspectionKia.Runcard.pickUnitToWorkOrderRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.pickUnitToWorkOrderResponse> pickUnitToWorkOrderAsync(FinalInspectionNET.Runcard.pickUnitToWorkOrderRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#fetchUnitGenealogy", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -387,11 +387,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.fetchUnitGenealogyResponse fetchUnitGenealogy(FinalInspectionKia.Runcard.fetchUnitGenealogyRequest request);
+        FinalInspectionNET.Runcard.fetchUnitGenealogyResponse fetchUnitGenealogy(FinalInspectionNET.Runcard.fetchUnitGenealogyRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#fetchUnitGenealogy", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.fetchUnitGenealogyResponse> fetchUnitGenealogyAsync(FinalInspectionKia.Runcard.fetchUnitGenealogyRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.fetchUnitGenealogyResponse> fetchUnitGenealogyAsync(FinalInspectionNET.Runcard.fetchUnitGenealogyRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#logMachineEnvironmentData", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -408,11 +408,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.logMachineEnvironmentDataResponse logMachineEnvironmentData(FinalInspectionKia.Runcard.logMachineEnvironmentDataRequest request);
+        FinalInspectionNET.Runcard.logMachineEnvironmentDataResponse logMachineEnvironmentData(FinalInspectionNET.Runcard.logMachineEnvironmentDataRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#logMachineEnvironmentData", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.logMachineEnvironmentDataResponse> logMachineEnvironmentDataAsync(FinalInspectionKia.Runcard.logMachineEnvironmentDataRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.logMachineEnvironmentDataResponse> logMachineEnvironmentDataAsync(FinalInspectionNET.Runcard.logMachineEnvironmentDataRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#getNextAvailableSerial", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -429,11 +429,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.getNextAvailableSerialResponse getNextAvailableSerial(FinalInspectionKia.Runcard.getNextAvailableSerialRequest request);
+        FinalInspectionNET.Runcard.getNextAvailableSerialResponse getNextAvailableSerial(FinalInspectionNET.Runcard.getNextAvailableSerialRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#getNextAvailableSerial", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.getNextAvailableSerialResponse> getNextAvailableSerialAsync(FinalInspectionKia.Runcard.getNextAvailableSerialRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.getNextAvailableSerialResponse> getNextAvailableSerialAsync(FinalInspectionNET.Runcard.getNextAvailableSerialRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#assignUnitToCarrier", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -450,11 +450,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.assignUnitToCarrierResponse assignUnitToCarrier(FinalInspectionKia.Runcard.assignUnitToCarrierRequest request);
+        FinalInspectionNET.Runcard.assignUnitToCarrierResponse assignUnitToCarrier(FinalInspectionNET.Runcard.assignUnitToCarrierRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#assignUnitToCarrier", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.assignUnitToCarrierResponse> assignUnitToCarrierAsync(FinalInspectionKia.Runcard.assignUnitToCarrierRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.assignUnitToCarrierResponse> assignUnitToCarrierAsync(FinalInspectionNET.Runcard.assignUnitToCarrierRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#removeUnitFromCarrier", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -471,11 +471,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.removeUnitFromCarrierResponse removeUnitFromCarrier(FinalInspectionKia.Runcard.removeUnitFromCarrierRequest request);
+        FinalInspectionNET.Runcard.removeUnitFromCarrierResponse removeUnitFromCarrier(FinalInspectionNET.Runcard.removeUnitFromCarrierRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#removeUnitFromCarrier", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.removeUnitFromCarrierResponse> removeUnitFromCarrierAsync(FinalInspectionKia.Runcard.removeUnitFromCarrierRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.removeUnitFromCarrierResponse> removeUnitFromCarrierAsync(FinalInspectionNET.Runcard.removeUnitFromCarrierRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#getCarrierStatus", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -492,11 +492,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.getCarrierStatusResponse getCarrierStatus(FinalInspectionKia.Runcard.getCarrierStatusRequest request);
+        FinalInspectionNET.Runcard.getCarrierStatusResponse getCarrierStatus(FinalInspectionNET.Runcard.getCarrierStatusRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#getCarrierStatus", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.getCarrierStatusResponse> getCarrierStatusAsync(FinalInspectionKia.Runcard.getCarrierStatusRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.getCarrierStatusResponse> getCarrierStatusAsync(FinalInspectionNET.Runcard.getCarrierStatusRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#transactCarrier", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -513,11 +513,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.transactCarrierResponse transactCarrier(FinalInspectionKia.Runcard.transactCarrierRequest request);
+        FinalInspectionNET.Runcard.transactCarrierResponse transactCarrier(FinalInspectionNET.Runcard.transactCarrierRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#transactCarrier", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.transactCarrierResponse> transactCarrierAsync(FinalInspectionKia.Runcard.transactCarrierRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.transactCarrierResponse> transactCarrierAsync(FinalInspectionNET.Runcard.transactCarrierRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#printUnitLabel", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -534,11 +534,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.printUnitLabelResponse printUnitLabel(FinalInspectionKia.Runcard.printUnitLabelRequest request);
+        FinalInspectionNET.Runcard.printUnitLabelResponse printUnitLabel(FinalInspectionNET.Runcard.printUnitLabelRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#printUnitLabel", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.printUnitLabelResponse> printUnitLabelAsync(FinalInspectionKia.Runcard.printUnitLabelRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.printUnitLabelResponse> printUnitLabelAsync(FinalInspectionNET.Runcard.printUnitLabelRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#fetchDefectCodeList", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -555,11 +555,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.fetchDefectCodeListResponse fetchDefectCodeList(FinalInspectionKia.Runcard.fetchDefectCodeListRequest request);
+        FinalInspectionNET.Runcard.fetchDefectCodeListResponse fetchDefectCodeList(FinalInspectionNET.Runcard.fetchDefectCodeListRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#fetchDefectCodeList", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.fetchDefectCodeListResponse> fetchDefectCodeListAsync(FinalInspectionKia.Runcard.fetchDefectCodeListRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.fetchDefectCodeListResponse> fetchDefectCodeListAsync(FinalInspectionNET.Runcard.fetchDefectCodeListRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#getAvailableWorkOrders", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -576,11 +576,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.getAvailableWorkOrdersResponse getAvailableWorkOrders(FinalInspectionKia.Runcard.getAvailableWorkOrdersRequest request);
+        FinalInspectionNET.Runcard.getAvailableWorkOrdersResponse getAvailableWorkOrders(FinalInspectionNET.Runcard.getAvailableWorkOrdersRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#getAvailableWorkOrders", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.getAvailableWorkOrdersResponse> getAvailableWorkOrdersAsync(FinalInspectionKia.Runcard.getAvailableWorkOrdersRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.getAvailableWorkOrdersResponse> getAvailableWorkOrdersAsync(FinalInspectionNET.Runcard.getAvailableWorkOrdersRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#scrapInventoryItem", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -597,11 +597,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.scrapInventoryItemResponse scrapInventoryItem(FinalInspectionKia.Runcard.scrapInventoryItemRequest request);
+        FinalInspectionNET.Runcard.scrapInventoryItemResponse scrapInventoryItem(FinalInspectionNET.Runcard.scrapInventoryItemRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#scrapInventoryItem", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.scrapInventoryItemResponse> scrapInventoryItemAsync(FinalInspectionKia.Runcard.scrapInventoryItemRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.scrapInventoryItemResponse> scrapInventoryItemAsync(FinalInspectionNET.Runcard.scrapInventoryItemRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#isValidWorkOrderBomComponent", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -618,11 +618,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.isValidWorkOrderBomComponentResponse isValidWorkOrderBomComponent(FinalInspectionKia.Runcard.isValidWorkOrderBomComponentRequest request);
+        FinalInspectionNET.Runcard.isValidWorkOrderBomComponentResponse isValidWorkOrderBomComponent(FinalInspectionNET.Runcard.isValidWorkOrderBomComponentRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#isValidWorkOrderBomComponent", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.isValidWorkOrderBomComponentResponse> isValidWorkOrderBomComponentAsync(FinalInspectionKia.Runcard.isValidWorkOrderBomComponentRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.isValidWorkOrderBomComponentResponse> isValidWorkOrderBomComponentAsync(FinalInspectionNET.Runcard.isValidWorkOrderBomComponentRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#generateNewWorkOrderSerial", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -639,11 +639,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.generateNewWorkOrderSerialResponse generateNewWorkOrderSerial(FinalInspectionKia.Runcard.generateNewWorkOrderSerialRequest request);
+        FinalInspectionNET.Runcard.generateNewWorkOrderSerialResponse generateNewWorkOrderSerial(FinalInspectionNET.Runcard.generateNewWorkOrderSerialRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#generateNewWorkOrderSerial", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.generateNewWorkOrderSerialResponse> generateNewWorkOrderSerialAsync(FinalInspectionKia.Runcard.generateNewWorkOrderSerialRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.generateNewWorkOrderSerialResponse> generateNewWorkOrderSerialAsync(FinalInspectionNET.Runcard.generateNewWorkOrderSerialRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#generateNewWorkOrderBatchSerial", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -660,11 +660,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.generateNewWorkOrderBatchSerialResponse generateNewWorkOrderBatchSerial(FinalInspectionKia.Runcard.generateNewWorkOrderBatchSerialRequest request);
+        FinalInspectionNET.Runcard.generateNewWorkOrderBatchSerialResponse generateNewWorkOrderBatchSerial(FinalInspectionNET.Runcard.generateNewWorkOrderBatchSerialRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#generateNewWorkOrderBatchSerial", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.generateNewWorkOrderBatchSerialResponse> generateNewWorkOrderBatchSerialAsync(FinalInspectionKia.Runcard.generateNewWorkOrderBatchSerialRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.generateNewWorkOrderBatchSerialResponse> generateNewWorkOrderBatchSerialAsync(FinalInspectionNET.Runcard.generateNewWorkOrderBatchSerialRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#setMSDTimer", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -681,11 +681,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.setMSDTimerResponse setMSDTimer(FinalInspectionKia.Runcard.setMSDTimerRequest request);
+        FinalInspectionNET.Runcard.setMSDTimerResponse setMSDTimer(FinalInspectionNET.Runcard.setMSDTimerRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#setMSDTimer", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.setMSDTimerResponse> setMSDTimerAsync(FinalInspectionKia.Runcard.setMSDTimerRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.setMSDTimerResponse> setMSDTimerAsync(FinalInspectionNET.Runcard.setMSDTimerRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#fetchUnitProductFields", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -702,11 +702,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.fetchUnitProductFieldsResponse fetchUnitProductFields(FinalInspectionKia.Runcard.fetchUnitProductFieldsRequest request);
+        FinalInspectionNET.Runcard.fetchUnitProductFieldsResponse fetchUnitProductFields(FinalInspectionNET.Runcard.fetchUnitProductFieldsRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#fetchUnitProductFields", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.fetchUnitProductFieldsResponse> fetchUnitProductFieldsAsync(FinalInspectionKia.Runcard.fetchUnitProductFieldsRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.fetchUnitProductFieldsResponse> fetchUnitProductFieldsAsync(FinalInspectionNET.Runcard.fetchUnitProductFieldsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#issueWorkOrder", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -723,11 +723,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.issueWorkOrderResponse issueWorkOrder(FinalInspectionKia.Runcard.issueWorkOrderRequest request);
+        FinalInspectionNET.Runcard.issueWorkOrderResponse issueWorkOrder(FinalInspectionNET.Runcard.issueWorkOrderRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#issueWorkOrder", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.issueWorkOrderResponse> issueWorkOrderAsync(FinalInspectionKia.Runcard.issueWorkOrderRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.issueWorkOrderResponse> issueWorkOrderAsync(FinalInspectionNET.Runcard.issueWorkOrderRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#releaseInventoryItem", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -744,11 +744,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.releaseInventoryItemResponse releaseInventoryItem(FinalInspectionKia.Runcard.releaseInventoryItemRequest request);
+        FinalInspectionNET.Runcard.releaseInventoryItemResponse releaseInventoryItem(FinalInspectionNET.Runcard.releaseInventoryItemRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#releaseInventoryItem", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.releaseInventoryItemResponse> releaseInventoryItemAsync(FinalInspectionKia.Runcard.releaseInventoryItemRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.releaseInventoryItemResponse> releaseInventoryItemAsync(FinalInspectionNET.Runcard.releaseInventoryItemRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#holdInventoryItem", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -765,11 +765,11 @@ namespace FinalInspectionKia.Runcard {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WarehouseItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(TestItem))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(unitDataItem))]
-        FinalInspectionKia.Runcard.holdInventoryItemResponse holdInventoryItem(FinalInspectionKia.Runcard.holdInventoryItemRequest request);
+        FinalInspectionNET.Runcard.holdInventoryItemResponse holdInventoryItem(FinalInspectionNET.Runcard.holdInventoryItemRequest request);
         
         // CODEGEN: Generando contrato de mensaje, ya que la operación tiene múltiples valores de devolución.
         [System.ServiceModel.OperationContractAttribute(Action="urn:runcard_wsdl#holdInventoryItem", ReplyAction="*")]
-        System.Threading.Tasks.Task<FinalInspectionKia.Runcard.holdInventoryItemResponse> holdInventoryItemAsync(FinalInspectionKia.Runcard.holdInventoryItemRequest request);
+        System.Threading.Tasks.Task<FinalInspectionNET.Runcard.holdInventoryItemResponse> holdInventoryItemAsync(FinalInspectionNET.Runcard.holdInventoryItemRequest request);
     }
     
     /// <remarks/>
@@ -4693,7 +4693,7 @@ namespace FinalInspectionKia.Runcard {
     public partial class getUnitStatusResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=0)]
-        public FinalInspectionKia.Runcard.unitStatus @return;
+        public FinalInspectionNET.Runcard.unitStatus @return;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=1)]
         public int error;
@@ -4704,7 +4704,7 @@ namespace FinalInspectionKia.Runcard {
         public getUnitStatusResponse() {
         }
         
-        public getUnitStatusResponse(FinalInspectionKia.Runcard.unitStatus @return, int error, string msg) {
+        public getUnitStatusResponse(FinalInspectionNET.Runcard.unitStatus @return, int error, string msg) {
             this.@return = @return;
             this.error = error;
             this.msg = msg;
@@ -4745,7 +4745,7 @@ namespace FinalInspectionKia.Runcard {
     public partial class getUnitDataResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=0)]
-        public FinalInspectionKia.Runcard.unitDataItem[] @return;
+        public FinalInspectionNET.Runcard.unitDataItem[] @return;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=1)]
         public int error;
@@ -4756,7 +4756,7 @@ namespace FinalInspectionKia.Runcard {
         public getUnitDataResponse() {
         }
         
-        public getUnitDataResponse(FinalInspectionKia.Runcard.unitDataItem[] @return, int error, string msg) {
+        public getUnitDataResponse(FinalInspectionNET.Runcard.unitDataItem[] @return, int error, string msg) {
             this.@return = @return;
             this.error = error;
             this.msg = msg;
@@ -4785,7 +4785,7 @@ namespace FinalInspectionKia.Runcard {
     public partial class getUnitTestConfigResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=0)]
-        public FinalInspectionKia.Runcard.TestItem[] @return;
+        public FinalInspectionNET.Runcard.TestItem[] @return;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=1)]
         public int error;
@@ -4796,7 +4796,7 @@ namespace FinalInspectionKia.Runcard {
         public getUnitTestConfigResponse() {
         }
         
-        public getUnitTestConfigResponse(FinalInspectionKia.Runcard.TestItem[] @return, int error, string msg) {
+        public getUnitTestConfigResponse(FinalInspectionNET.Runcard.TestItem[] @return, int error, string msg) {
             this.@return = @return;
             this.error = error;
             this.msg = msg;
@@ -4837,7 +4837,7 @@ namespace FinalInspectionKia.Runcard {
     public partial class fetchWarehouseBinItemsResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=0)]
-        public FinalInspectionKia.Runcard.WarehouseItem[] @return;
+        public FinalInspectionNET.Runcard.WarehouseItem[] @return;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=1)]
         public int error;
@@ -4848,7 +4848,7 @@ namespace FinalInspectionKia.Runcard {
         public fetchWarehouseBinItemsResponse() {
         }
         
-        public fetchWarehouseBinItemsResponse(FinalInspectionKia.Runcard.WarehouseItem[] @return, int error, string msg) {
+        public fetchWarehouseBinItemsResponse(FinalInspectionNET.Runcard.WarehouseItem[] @return, int error, string msg) {
             this.@return = @return;
             this.error = error;
             this.msg = msg;
@@ -4909,7 +4909,7 @@ namespace FinalInspectionKia.Runcard {
     public partial class fetchInventoryItemsResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=0)]
-        public FinalInspectionKia.Runcard.InventoryItem[] @return;
+        public FinalInspectionNET.Runcard.InventoryItem[] @return;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=1)]
         public int error;
@@ -4920,7 +4920,7 @@ namespace FinalInspectionKia.Runcard {
         public fetchInventoryItemsResponse() {
         }
         
-        public fetchInventoryItemsResponse(FinalInspectionKia.Runcard.InventoryItem[] @return, int error, string msg) {
+        public fetchInventoryItemsResponse(FinalInspectionNET.Runcard.InventoryItem[] @return, int error, string msg) {
             this.@return = @return;
             this.error = error;
             this.msg = msg;
@@ -4933,18 +4933,18 @@ namespace FinalInspectionKia.Runcard {
     public partial class transactUnitRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=0)]
-        public FinalInspectionKia.Runcard.transactionItem request;
+        public FinalInspectionNET.Runcard.transactionItem request;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=1)]
-        public FinalInspectionKia.Runcard.dataItem[] inputData;
+        public FinalInspectionNET.Runcard.dataItem[] inputData;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=2)]
-        public FinalInspectionKia.Runcard.bomItem[] bomData;
+        public FinalInspectionNET.Runcard.bomItem[] bomData;
         
         public transactUnitRequest() {
         }
         
-        public transactUnitRequest(FinalInspectionKia.Runcard.transactionItem request, FinalInspectionKia.Runcard.dataItem[] inputData, FinalInspectionKia.Runcard.bomItem[] bomData) {
+        public transactUnitRequest(FinalInspectionNET.Runcard.transactionItem request, FinalInspectionNET.Runcard.dataItem[] inputData, FinalInspectionNET.Runcard.bomItem[] bomData) {
             this.request = request;
             this.inputData = inputData;
             this.bomData = bomData;
@@ -4977,15 +4977,15 @@ namespace FinalInspectionKia.Runcard {
     public partial class reworkUnitRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=0)]
-        public FinalInspectionKia.Runcard.transactionItem request;
+        public FinalInspectionNET.Runcard.transactionItem request;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=1)]
-        public FinalInspectionKia.Runcard.reworkSettings settings;
+        public FinalInspectionNET.Runcard.reworkSettings settings;
         
         public reworkUnitRequest() {
         }
         
-        public reworkUnitRequest(FinalInspectionKia.Runcard.transactionItem request, FinalInspectionKia.Runcard.reworkSettings settings) {
+        public reworkUnitRequest(FinalInspectionNET.Runcard.transactionItem request, FinalInspectionNET.Runcard.reworkSettings settings) {
             this.request = request;
             this.settings = settings;
         }
@@ -5033,7 +5033,7 @@ namespace FinalInspectionKia.Runcard {
     public partial class checkUserStatusResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=0)]
-        public FinalInspectionKia.Runcard.userInfo @return;
+        public FinalInspectionNET.Runcard.userInfo @return;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=1)]
         public int error;
@@ -5044,7 +5044,7 @@ namespace FinalInspectionKia.Runcard {
         public checkUserStatusResponse() {
         }
         
-        public checkUserStatusResponse(FinalInspectionKia.Runcard.userInfo @return, int error, string msg) {
+        public checkUserStatusResponse(FinalInspectionNET.Runcard.userInfo @return, int error, string msg) {
             this.@return = @return;
             this.error = error;
             this.msg = msg;
@@ -5077,7 +5077,7 @@ namespace FinalInspectionKia.Runcard {
     public partial class getUnitBOMConsumptionResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=0)]
-        public FinalInspectionKia.Runcard.unitBOM[] @return;
+        public FinalInspectionNET.Runcard.unitBOM[] @return;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=1)]
         public int error;
@@ -5088,7 +5088,7 @@ namespace FinalInspectionKia.Runcard {
         public getUnitBOMConsumptionResponse() {
         }
         
-        public getUnitBOMConsumptionResponse(FinalInspectionKia.Runcard.unitBOM[] @return, int error, string msg) {
+        public getUnitBOMConsumptionResponse(FinalInspectionNET.Runcard.unitBOM[] @return, int error, string msg) {
             this.@return = @return;
             this.error = error;
             this.msg = msg;
@@ -5121,7 +5121,7 @@ namespace FinalInspectionKia.Runcard {
     public partial class getWorkOrderStepInstructionsResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=0)]
-        public FinalInspectionKia.Runcard.StepInstruction @return;
+        public FinalInspectionNET.Runcard.StepInstruction @return;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=1)]
         public int error;
@@ -5132,7 +5132,7 @@ namespace FinalInspectionKia.Runcard {
         public getWorkOrderStepInstructionsResponse() {
         }
         
-        public getWorkOrderStepInstructionsResponse(FinalInspectionKia.Runcard.StepInstruction @return, int error, string msg) {
+        public getWorkOrderStepInstructionsResponse(FinalInspectionNET.Runcard.StepInstruction @return, int error, string msg) {
             this.@return = @return;
             this.error = error;
             this.msg = msg;
@@ -5165,7 +5165,7 @@ namespace FinalInspectionKia.Runcard {
     public partial class getDataInputFieldsResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=0)]
-        public FinalInspectionKia.Runcard.InputFields[] @return;
+        public FinalInspectionNET.Runcard.InputFields[] @return;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=1)]
         public int error;
@@ -5176,7 +5176,7 @@ namespace FinalInspectionKia.Runcard {
         public getDataInputFieldsResponse() {
         }
         
-        public getDataInputFieldsResponse(FinalInspectionKia.Runcard.InputFields[] @return, int error, string msg) {
+        public getDataInputFieldsResponse(FinalInspectionNET.Runcard.InputFields[] @return, int error, string msg) {
             this.@return = @return;
             this.error = error;
             this.msg = msg;
@@ -5269,7 +5269,7 @@ namespace FinalInspectionKia.Runcard {
     public partial class getMachineStatusResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=0)]
-        public FinalInspectionKia.Runcard.machineStatus @return;
+        public FinalInspectionNET.Runcard.machineStatus @return;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=1)]
         public int error;
@@ -5280,7 +5280,7 @@ namespace FinalInspectionKia.Runcard {
         public getMachineStatusResponse() {
         }
         
-        public getMachineStatusResponse(FinalInspectionKia.Runcard.machineStatus @return, int error, string msg) {
+        public getMachineStatusResponse(FinalInspectionNET.Runcard.machineStatus @return, int error, string msg) {
             this.@return = @return;
             this.error = error;
             this.msg = msg;
@@ -5293,15 +5293,15 @@ namespace FinalInspectionKia.Runcard {
     public partial class backFlushInventoryRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=0)]
-        public FinalInspectionKia.Runcard.productionUnit request;
+        public FinalInspectionNET.Runcard.productionUnit request;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=1)]
-        public FinalInspectionKia.Runcard.bomItem[] bomData;
+        public FinalInspectionNET.Runcard.bomItem[] bomData;
         
         public backFlushInventoryRequest() {
         }
         
-        public backFlushInventoryRequest(FinalInspectionKia.Runcard.productionUnit request, FinalInspectionKia.Runcard.bomItem[] bomData) {
+        public backFlushInventoryRequest(FinalInspectionNET.Runcard.productionUnit request, FinalInspectionNET.Runcard.bomItem[] bomData) {
             this.request = request;
             this.bomData = bomData;
         }
@@ -5357,7 +5357,7 @@ namespace FinalInspectionKia.Runcard {
     public partial class getUnitBOMItemsResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=0)]
-        public FinalInspectionKia.Runcard.unitBOMitem[] @return;
+        public FinalInspectionNET.Runcard.unitBOMitem[] @return;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=1)]
         public int error;
@@ -5368,7 +5368,7 @@ namespace FinalInspectionKia.Runcard {
         public getUnitBOMItemsResponse() {
         }
         
-        public getUnitBOMItemsResponse(FinalInspectionKia.Runcard.unitBOMitem[] @return, int error, string msg) {
+        public getUnitBOMItemsResponse(FinalInspectionNET.Runcard.unitBOMitem[] @return, int error, string msg) {
             this.@return = @return;
             this.error = error;
             this.msg = msg;
@@ -5529,7 +5529,7 @@ namespace FinalInspectionKia.Runcard {
     public partial class fetchUnitGenealogyResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=0)]
-        public FinalInspectionKia.Runcard.GenealogyItem[] @return;
+        public FinalInspectionNET.Runcard.GenealogyItem[] @return;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=1)]
         public int error;
@@ -5540,7 +5540,7 @@ namespace FinalInspectionKia.Runcard {
         public fetchUnitGenealogyResponse() {
         }
         
-        public fetchUnitGenealogyResponse(FinalInspectionKia.Runcard.GenealogyItem[] @return, int error, string msg) {
+        public fetchUnitGenealogyResponse(FinalInspectionNET.Runcard.GenealogyItem[] @return, int error, string msg) {
             this.@return = @return;
             this.error = error;
             this.msg = msg;
@@ -5621,7 +5621,7 @@ namespace FinalInspectionKia.Runcard {
     public partial class getNextAvailableSerialResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=0)]
-        public FinalInspectionKia.Runcard.nextSerialInfo @return;
+        public FinalInspectionNET.Runcard.nextSerialInfo @return;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=1)]
         public int error;
@@ -5632,7 +5632,7 @@ namespace FinalInspectionKia.Runcard {
         public getNextAvailableSerialResponse() {
         }
         
-        public getNextAvailableSerialResponse(FinalInspectionKia.Runcard.nextSerialInfo @return, int error, string msg) {
+        public getNextAvailableSerialResponse(FinalInspectionNET.Runcard.nextSerialInfo @return, int error, string msg) {
             this.@return = @return;
             this.error = error;
             this.msg = msg;
@@ -5765,7 +5765,7 @@ namespace FinalInspectionKia.Runcard {
     public partial class getCarrierStatusResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=0)]
-        public FinalInspectionKia.Runcard.carrierUnitItem[] carrierStatus;
+        public FinalInspectionNET.Runcard.carrierUnitItem[] carrierStatus;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=1)]
         public int error;
@@ -5776,7 +5776,7 @@ namespace FinalInspectionKia.Runcard {
         public getCarrierStatusResponse() {
         }
         
-        public getCarrierStatusResponse(FinalInspectionKia.Runcard.carrierUnitItem[] carrierStatus, int error, string msg) {
+        public getCarrierStatusResponse(FinalInspectionNET.Runcard.carrierUnitItem[] carrierStatus, int error, string msg) {
             this.carrierStatus = carrierStatus;
             this.error = error;
             this.msg = msg;
@@ -5789,18 +5789,18 @@ namespace FinalInspectionKia.Runcard {
     public partial class transactCarrierRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=0)]
-        public FinalInspectionKia.Runcard.transactionCarrier request;
+        public FinalInspectionNET.Runcard.transactionCarrier request;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=1)]
-        public FinalInspectionKia.Runcard.dataItem[] inputData;
+        public FinalInspectionNET.Runcard.dataItem[] inputData;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=2)]
-        public FinalInspectionKia.Runcard.bomItem[] bomData;
+        public FinalInspectionNET.Runcard.bomItem[] bomData;
         
         public transactCarrierRequest() {
         }
         
-        public transactCarrierRequest(FinalInspectionKia.Runcard.transactionCarrier request, FinalInspectionKia.Runcard.dataItem[] inputData, FinalInspectionKia.Runcard.bomItem[] bomData) {
+        public transactCarrierRequest(FinalInspectionNET.Runcard.transactionCarrier request, FinalInspectionNET.Runcard.dataItem[] inputData, FinalInspectionNET.Runcard.bomItem[] bomData) {
             this.request = request;
             this.inputData = inputData;
             this.bomData = bomData;
@@ -5889,7 +5889,7 @@ namespace FinalInspectionKia.Runcard {
     public partial class fetchDefectCodeListResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=0)]
-        public FinalInspectionKia.Runcard.DefectItem[] @return;
+        public FinalInspectionNET.Runcard.DefectItem[] @return;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=1)]
         public int error;
@@ -5900,7 +5900,7 @@ namespace FinalInspectionKia.Runcard {
         public fetchDefectCodeListResponse() {
         }
         
-        public fetchDefectCodeListResponse(FinalInspectionKia.Runcard.DefectItem[] @return, int error, string msg) {
+        public fetchDefectCodeListResponse(FinalInspectionNET.Runcard.DefectItem[] @return, int error, string msg) {
             this.@return = @return;
             this.error = error;
             this.msg = msg;
@@ -5933,7 +5933,7 @@ namespace FinalInspectionKia.Runcard {
     public partial class getAvailableWorkOrdersResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=0)]
-        public FinalInspectionKia.Runcard.workOrderItem[] @return;
+        public FinalInspectionNET.Runcard.workOrderItem[] @return;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=1)]
         public int error;
@@ -5944,7 +5944,7 @@ namespace FinalInspectionKia.Runcard {
         public getAvailableWorkOrdersResponse() {
         }
         
-        public getAvailableWorkOrdersResponse(FinalInspectionKia.Runcard.workOrderItem[] @return, int error, string msg) {
+        public getAvailableWorkOrdersResponse(FinalInspectionNET.Runcard.workOrderItem[] @return, int error, string msg) {
             this.@return = @return;
             this.error = error;
             this.msg = msg;
@@ -6167,12 +6167,12 @@ namespace FinalInspectionKia.Runcard {
         public string msg;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=2)]
-        public FinalInspectionKia.Runcard.msdTimerReturn @return;
+        public FinalInspectionNET.Runcard.msdTimerReturn @return;
         
         public setMSDTimerResponse() {
         }
         
-        public setMSDTimerResponse(int error, string msg, FinalInspectionKia.Runcard.msdTimerReturn @return) {
+        public setMSDTimerResponse(int error, string msg, FinalInspectionNET.Runcard.msdTimerReturn @return) {
             this.error = error;
             this.msg = msg;
             this.@return = @return;
@@ -6201,7 +6201,7 @@ namespace FinalInspectionKia.Runcard {
     public partial class fetchUnitProductFieldsResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=0)]
-        public FinalInspectionKia.Runcard.UnitProductFields @return;
+        public FinalInspectionNET.Runcard.UnitProductFields @return;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=1)]
         public int error;
@@ -6212,7 +6212,7 @@ namespace FinalInspectionKia.Runcard {
         public fetchUnitProductFieldsResponse() {
         }
         
-        public fetchUnitProductFieldsResponse(FinalInspectionKia.Runcard.UnitProductFields @return, int error, string msg) {
+        public fetchUnitProductFieldsResponse(FinalInspectionNET.Runcard.UnitProductFields @return, int error, string msg) {
             this.@return = @return;
             this.error = error;
             this.msg = msg;
@@ -6225,12 +6225,12 @@ namespace FinalInspectionKia.Runcard {
     public partial class issueWorkOrderRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="", Order=0)]
-        public FinalInspectionKia.Runcard.workOrderInfo workOrderInfo;
+        public FinalInspectionNET.Runcard.workOrderInfo workOrderInfo;
         
         public issueWorkOrderRequest() {
         }
         
-        public issueWorkOrderRequest(FinalInspectionKia.Runcard.workOrderInfo workOrderInfo) {
+        public issueWorkOrderRequest(FinalInspectionNET.Runcard.workOrderInfo workOrderInfo) {
             this.workOrderInfo = workOrderInfo;
         }
     }
@@ -6340,12 +6340,12 @@ namespace FinalInspectionKia.Runcard {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface runcard_wsdlPortTypeChannel : FinalInspectionKia.Runcard.runcard_wsdlPortType, System.ServiceModel.IClientChannel {
+    public interface runcard_wsdlPortTypeChannel : FinalInspectionNET.Runcard.runcard_wsdlPortType, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class runcard_wsdlPortTypeClient : System.ServiceModel.ClientBase<FinalInspectionKia.Runcard.runcard_wsdlPortType>, FinalInspectionKia.Runcard.runcard_wsdlPortType {
+    public partial class runcard_wsdlPortTypeClient : System.ServiceModel.ClientBase<FinalInspectionNET.Runcard.runcard_wsdlPortType>, FinalInspectionNET.Runcard.runcard_wsdlPortType {
         
         public runcard_wsdlPortTypeClient() {
         }
@@ -6367,90 +6367,90 @@ namespace FinalInspectionKia.Runcard {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.getUnitStatusResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.getUnitStatus(FinalInspectionKia.Runcard.getUnitStatusRequest request) {
+        FinalInspectionNET.Runcard.getUnitStatusResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.getUnitStatus(FinalInspectionNET.Runcard.getUnitStatusRequest request) {
             return base.Channel.getUnitStatus(request);
         }
         
-        public FinalInspectionKia.Runcard.unitStatus getUnitStatus(string serial, out int error, out string msg) {
-            FinalInspectionKia.Runcard.getUnitStatusRequest inValue = new FinalInspectionKia.Runcard.getUnitStatusRequest();
+        public FinalInspectionNET.Runcard.unitStatus getUnitStatus(string serial, out int error, out string msg) {
+            FinalInspectionNET.Runcard.getUnitStatusRequest inValue = new FinalInspectionNET.Runcard.getUnitStatusRequest();
             inValue.serial = serial;
-            FinalInspectionKia.Runcard.getUnitStatusResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).getUnitStatus(inValue);
+            FinalInspectionNET.Runcard.getUnitStatusResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).getUnitStatus(inValue);
             error = retVal.error;
             msg = retVal.msg;
             return retVal.@return;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.getUnitStatusResponse> getUnitStatusAsync(FinalInspectionKia.Runcard.getUnitStatusRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.getUnitStatusResponse> getUnitStatusAsync(FinalInspectionNET.Runcard.getUnitStatusRequest request) {
             return base.Channel.getUnitStatusAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.getUnitDataResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.getUnitData(FinalInspectionKia.Runcard.getUnitDataRequest request) {
+        FinalInspectionNET.Runcard.getUnitDataResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.getUnitData(FinalInspectionNET.Runcard.getUnitDataRequest request) {
             return base.Channel.getUnitData(request);
         }
         
-        public FinalInspectionKia.Runcard.unitDataItem[] getUnitData(string serial, string opcode, string fieldgroupname, string fieldname, out int error, out string msg) {
-            FinalInspectionKia.Runcard.getUnitDataRequest inValue = new FinalInspectionKia.Runcard.getUnitDataRequest();
+        public FinalInspectionNET.Runcard.unitDataItem[] getUnitData(string serial, string opcode, string fieldgroupname, string fieldname, out int error, out string msg) {
+            FinalInspectionNET.Runcard.getUnitDataRequest inValue = new FinalInspectionNET.Runcard.getUnitDataRequest();
             inValue.serial = serial;
             inValue.opcode = opcode;
             inValue.fieldgroupname = fieldgroupname;
             inValue.fieldname = fieldname;
-            FinalInspectionKia.Runcard.getUnitDataResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).getUnitData(inValue);
+            FinalInspectionNET.Runcard.getUnitDataResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).getUnitData(inValue);
             error = retVal.error;
             msg = retVal.msg;
             return retVal.@return;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.getUnitDataResponse> getUnitDataAsync(FinalInspectionKia.Runcard.getUnitDataRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.getUnitDataResponse> getUnitDataAsync(FinalInspectionNET.Runcard.getUnitDataRequest request) {
             return base.Channel.getUnitDataAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.getUnitTestConfigResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.getUnitTestConfig(FinalInspectionKia.Runcard.getUnitTestConfigRequest request) {
+        FinalInspectionNET.Runcard.getUnitTestConfigResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.getUnitTestConfig(FinalInspectionNET.Runcard.getUnitTestConfigRequest request) {
             return base.Channel.getUnitTestConfig(request);
         }
         
-        public FinalInspectionKia.Runcard.TestItem[] getUnitTestConfig(string serial, out int error, out string msg) {
-            FinalInspectionKia.Runcard.getUnitTestConfigRequest inValue = new FinalInspectionKia.Runcard.getUnitTestConfigRequest();
+        public FinalInspectionNET.Runcard.TestItem[] getUnitTestConfig(string serial, out int error, out string msg) {
+            FinalInspectionNET.Runcard.getUnitTestConfigRequest inValue = new FinalInspectionNET.Runcard.getUnitTestConfigRequest();
             inValue.serial = serial;
-            FinalInspectionKia.Runcard.getUnitTestConfigResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).getUnitTestConfig(inValue);
+            FinalInspectionNET.Runcard.getUnitTestConfigResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).getUnitTestConfig(inValue);
             error = retVal.error;
             msg = retVal.msg;
             return retVal.@return;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.getUnitTestConfigResponse> getUnitTestConfigAsync(FinalInspectionKia.Runcard.getUnitTestConfigRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.getUnitTestConfigResponse> getUnitTestConfigAsync(FinalInspectionNET.Runcard.getUnitTestConfigRequest request) {
             return base.Channel.getUnitTestConfigAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.fetchWarehouseBinItemsResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.fetchWarehouseBinItems(FinalInspectionKia.Runcard.fetchWarehouseBinItemsRequest request) {
+        FinalInspectionNET.Runcard.fetchWarehouseBinItemsResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.fetchWarehouseBinItems(FinalInspectionNET.Runcard.fetchWarehouseBinItemsRequest request) {
             return base.Channel.fetchWarehouseBinItems(request);
         }
         
-        public FinalInspectionKia.Runcard.WarehouseItem[] fetchWarehouseBinItems(string warehousebin, string warehouseloc, string partnum, string partrev, out int error, out string msg) {
-            FinalInspectionKia.Runcard.fetchWarehouseBinItemsRequest inValue = new FinalInspectionKia.Runcard.fetchWarehouseBinItemsRequest();
+        public FinalInspectionNET.Runcard.WarehouseItem[] fetchWarehouseBinItems(string warehousebin, string warehouseloc, string partnum, string partrev, out int error, out string msg) {
+            FinalInspectionNET.Runcard.fetchWarehouseBinItemsRequest inValue = new FinalInspectionNET.Runcard.fetchWarehouseBinItemsRequest();
             inValue.warehousebin = warehousebin;
             inValue.warehouseloc = warehouseloc;
             inValue.partnum = partnum;
             inValue.partrev = partrev;
-            FinalInspectionKia.Runcard.fetchWarehouseBinItemsResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).fetchWarehouseBinItems(inValue);
+            FinalInspectionNET.Runcard.fetchWarehouseBinItemsResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).fetchWarehouseBinItems(inValue);
             error = retVal.error;
             msg = retVal.msg;
             return retVal.@return;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.fetchWarehouseBinItemsResponse> fetchWarehouseBinItemsAsync(FinalInspectionKia.Runcard.fetchWarehouseBinItemsRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.fetchWarehouseBinItemsResponse> fetchWarehouseBinItemsAsync(FinalInspectionNET.Runcard.fetchWarehouseBinItemsRequest request) {
             return base.Channel.fetchWarehouseBinItemsAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.fetchInventoryItemsResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.fetchInventoryItems(FinalInspectionKia.Runcard.fetchInventoryItemsRequest request) {
+        FinalInspectionNET.Runcard.fetchInventoryItemsResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.fetchInventoryItems(FinalInspectionNET.Runcard.fetchInventoryItemsRequest request) {
             return base.Channel.fetchInventoryItems(request);
         }
         
-        public FinalInspectionKia.Runcard.InventoryItem[] fetchInventoryItems(string serial, string status, string partnum, string partrev, string workorder, string opcode, int seqnum, string warehouseloc, string warehousebin, out int error, out string msg) {
-            FinalInspectionKia.Runcard.fetchInventoryItemsRequest inValue = new FinalInspectionKia.Runcard.fetchInventoryItemsRequest();
+        public FinalInspectionNET.Runcard.InventoryItem[] fetchInventoryItems(string serial, string status, string partnum, string partrev, string workorder, string opcode, int seqnum, string warehouseloc, string warehousebin, out int error, out string msg) {
+            FinalInspectionNET.Runcard.fetchInventoryItemsRequest inValue = new FinalInspectionNET.Runcard.fetchInventoryItemsRequest();
             inValue.serial = serial;
             inValue.status = status;
             inValue.partnum = partnum;
@@ -6460,135 +6460,135 @@ namespace FinalInspectionKia.Runcard {
             inValue.seqnum = seqnum;
             inValue.warehouseloc = warehouseloc;
             inValue.warehousebin = warehousebin;
-            FinalInspectionKia.Runcard.fetchInventoryItemsResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).fetchInventoryItems(inValue);
+            FinalInspectionNET.Runcard.fetchInventoryItemsResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).fetchInventoryItems(inValue);
             error = retVal.error;
             msg = retVal.msg;
             return retVal.@return;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.fetchInventoryItemsResponse> fetchInventoryItemsAsync(FinalInspectionKia.Runcard.fetchInventoryItemsRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.fetchInventoryItemsResponse> fetchInventoryItemsAsync(FinalInspectionNET.Runcard.fetchInventoryItemsRequest request) {
             return base.Channel.fetchInventoryItemsAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.transactUnitResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.transactUnit(FinalInspectionKia.Runcard.transactUnitRequest request) {
+        FinalInspectionNET.Runcard.transactUnitResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.transactUnit(FinalInspectionNET.Runcard.transactUnitRequest request) {
             return base.Channel.transactUnit(request);
         }
         
-        public int transactUnit(FinalInspectionKia.Runcard.transactionItem request, FinalInspectionKia.Runcard.dataItem[] inputData, FinalInspectionKia.Runcard.bomItem[] bomData, out string msg) {
-            FinalInspectionKia.Runcard.transactUnitRequest inValue = new FinalInspectionKia.Runcard.transactUnitRequest();
+        public int transactUnit(FinalInspectionNET.Runcard.transactionItem request, FinalInspectionNET.Runcard.dataItem[] inputData, FinalInspectionNET.Runcard.bomItem[] bomData, out string msg) {
+            FinalInspectionNET.Runcard.transactUnitRequest inValue = new FinalInspectionNET.Runcard.transactUnitRequest();
             inValue.request = request;
             inValue.inputData = inputData;
             inValue.bomData = bomData;
-            FinalInspectionKia.Runcard.transactUnitResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).transactUnit(inValue);
+            FinalInspectionNET.Runcard.transactUnitResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).transactUnit(inValue);
             msg = retVal.msg;
             return retVal.error;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.transactUnitResponse> transactUnitAsync(FinalInspectionKia.Runcard.transactUnitRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.transactUnitResponse> transactUnitAsync(FinalInspectionNET.Runcard.transactUnitRequest request) {
             return base.Channel.transactUnitAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.reworkUnitResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.reworkUnit(FinalInspectionKia.Runcard.reworkUnitRequest request) {
+        FinalInspectionNET.Runcard.reworkUnitResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.reworkUnit(FinalInspectionNET.Runcard.reworkUnitRequest request) {
             return base.Channel.reworkUnit(request);
         }
         
-        public int reworkUnit(FinalInspectionKia.Runcard.transactionItem request, FinalInspectionKia.Runcard.reworkSettings settings, out string msg) {
-            FinalInspectionKia.Runcard.reworkUnitRequest inValue = new FinalInspectionKia.Runcard.reworkUnitRequest();
+        public int reworkUnit(FinalInspectionNET.Runcard.transactionItem request, FinalInspectionNET.Runcard.reworkSettings settings, out string msg) {
+            FinalInspectionNET.Runcard.reworkUnitRequest inValue = new FinalInspectionNET.Runcard.reworkUnitRequest();
             inValue.request = request;
             inValue.settings = settings;
-            FinalInspectionKia.Runcard.reworkUnitResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).reworkUnit(inValue);
+            FinalInspectionNET.Runcard.reworkUnitResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).reworkUnit(inValue);
             msg = retVal.msg;
             return retVal.error;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.reworkUnitResponse> reworkUnitAsync(FinalInspectionKia.Runcard.reworkUnitRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.reworkUnitResponse> reworkUnitAsync(FinalInspectionNET.Runcard.reworkUnitRequest request) {
             return base.Channel.reworkUnitAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.checkUserStatusResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.checkUserStatus(FinalInspectionKia.Runcard.checkUserStatusRequest request) {
+        FinalInspectionNET.Runcard.checkUserStatusResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.checkUserStatus(FinalInspectionNET.Runcard.checkUserStatusRequest request) {
             return base.Channel.checkUserStatus(request);
         }
         
-        public FinalInspectionKia.Runcard.userInfo checkUserStatus(string username, out int error, out string msg) {
-            FinalInspectionKia.Runcard.checkUserStatusRequest inValue = new FinalInspectionKia.Runcard.checkUserStatusRequest();
+        public FinalInspectionNET.Runcard.userInfo checkUserStatus(string username, out int error, out string msg) {
+            FinalInspectionNET.Runcard.checkUserStatusRequest inValue = new FinalInspectionNET.Runcard.checkUserStatusRequest();
             inValue.username = username;
-            FinalInspectionKia.Runcard.checkUserStatusResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).checkUserStatus(inValue);
+            FinalInspectionNET.Runcard.checkUserStatusResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).checkUserStatus(inValue);
             error = retVal.error;
             msg = retVal.msg;
             return retVal.@return;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.checkUserStatusResponse> checkUserStatusAsync(FinalInspectionKia.Runcard.checkUserStatusRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.checkUserStatusResponse> checkUserStatusAsync(FinalInspectionNET.Runcard.checkUserStatusRequest request) {
             return base.Channel.checkUserStatusAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.getUnitBOMConsumptionResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.getUnitBOMConsumption(FinalInspectionKia.Runcard.getUnitBOMConsumptionRequest request) {
+        FinalInspectionNET.Runcard.getUnitBOMConsumptionResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.getUnitBOMConsumption(FinalInspectionNET.Runcard.getUnitBOMConsumptionRequest request) {
             return base.Channel.getUnitBOMConsumption(request);
         }
         
-        public FinalInspectionKia.Runcard.unitBOM[] getUnitBOMConsumption(string workorder, string seqnum, out int error, out string msg) {
-            FinalInspectionKia.Runcard.getUnitBOMConsumptionRequest inValue = new FinalInspectionKia.Runcard.getUnitBOMConsumptionRequest();
+        public FinalInspectionNET.Runcard.unitBOM[] getUnitBOMConsumption(string workorder, string seqnum, out int error, out string msg) {
+            FinalInspectionNET.Runcard.getUnitBOMConsumptionRequest inValue = new FinalInspectionNET.Runcard.getUnitBOMConsumptionRequest();
             inValue.workorder = workorder;
             inValue.seqnum = seqnum;
-            FinalInspectionKia.Runcard.getUnitBOMConsumptionResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).getUnitBOMConsumption(inValue);
+            FinalInspectionNET.Runcard.getUnitBOMConsumptionResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).getUnitBOMConsumption(inValue);
             error = retVal.error;
             msg = retVal.msg;
             return retVal.@return;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.getUnitBOMConsumptionResponse> getUnitBOMConsumptionAsync(FinalInspectionKia.Runcard.getUnitBOMConsumptionRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.getUnitBOMConsumptionResponse> getUnitBOMConsumptionAsync(FinalInspectionNET.Runcard.getUnitBOMConsumptionRequest request) {
             return base.Channel.getUnitBOMConsumptionAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.getWorkOrderStepInstructionsResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.getWorkOrderStepInstructions(FinalInspectionKia.Runcard.getWorkOrderStepInstructionsRequest request) {
+        FinalInspectionNET.Runcard.getWorkOrderStepInstructionsResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.getWorkOrderStepInstructions(FinalInspectionNET.Runcard.getWorkOrderStepInstructionsRequest request) {
             return base.Channel.getWorkOrderStepInstructions(request);
         }
         
-        public FinalInspectionKia.Runcard.StepInstruction getWorkOrderStepInstructions(string workorder, string seqnum, out int error, out string msg) {
-            FinalInspectionKia.Runcard.getWorkOrderStepInstructionsRequest inValue = new FinalInspectionKia.Runcard.getWorkOrderStepInstructionsRequest();
+        public FinalInspectionNET.Runcard.StepInstruction getWorkOrderStepInstructions(string workorder, string seqnum, out int error, out string msg) {
+            FinalInspectionNET.Runcard.getWorkOrderStepInstructionsRequest inValue = new FinalInspectionNET.Runcard.getWorkOrderStepInstructionsRequest();
             inValue.workorder = workorder;
             inValue.seqnum = seqnum;
-            FinalInspectionKia.Runcard.getWorkOrderStepInstructionsResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).getWorkOrderStepInstructions(inValue);
+            FinalInspectionNET.Runcard.getWorkOrderStepInstructionsResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).getWorkOrderStepInstructions(inValue);
             error = retVal.error;
             msg = retVal.msg;
             return retVal.@return;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.getWorkOrderStepInstructionsResponse> getWorkOrderStepInstructionsAsync(FinalInspectionKia.Runcard.getWorkOrderStepInstructionsRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.getWorkOrderStepInstructionsResponse> getWorkOrderStepInstructionsAsync(FinalInspectionNET.Runcard.getWorkOrderStepInstructionsRequest request) {
             return base.Channel.getWorkOrderStepInstructionsAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.getDataInputFieldsResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.getDataInputFields(FinalInspectionKia.Runcard.getDataInputFieldsRequest request) {
+        FinalInspectionNET.Runcard.getDataInputFieldsResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.getDataInputFields(FinalInspectionNET.Runcard.getDataInputFieldsRequest request) {
             return base.Channel.getDataInputFields(request);
         }
         
-        public FinalInspectionKia.Runcard.InputFields[] getDataInputFields(string workorder, int seqnum, out int error, out string msg) {
-            FinalInspectionKia.Runcard.getDataInputFieldsRequest inValue = new FinalInspectionKia.Runcard.getDataInputFieldsRequest();
+        public FinalInspectionNET.Runcard.InputFields[] getDataInputFields(string workorder, int seqnum, out int error, out string msg) {
+            FinalInspectionNET.Runcard.getDataInputFieldsRequest inValue = new FinalInspectionNET.Runcard.getDataInputFieldsRequest();
             inValue.workorder = workorder;
             inValue.seqnum = seqnum;
-            FinalInspectionKia.Runcard.getDataInputFieldsResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).getDataInputFields(inValue);
+            FinalInspectionNET.Runcard.getDataInputFieldsResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).getDataInputFields(inValue);
             error = retVal.error;
             msg = retVal.msg;
             return retVal.@return;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.getDataInputFieldsResponse> getDataInputFieldsAsync(FinalInspectionKia.Runcard.getDataInputFieldsRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.getDataInputFieldsResponse> getDataInputFieldsAsync(FinalInspectionNET.Runcard.getDataInputFieldsRequest request) {
             return base.Channel.getDataInputFieldsAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.registerUnitToWorkOrderResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.registerUnitToWorkOrder(FinalInspectionKia.Runcard.registerUnitToWorkOrderRequest request) {
+        FinalInspectionNET.Runcard.registerUnitToWorkOrderResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.registerUnitToWorkOrder(FinalInspectionNET.Runcard.registerUnitToWorkOrderRequest request) {
             return base.Channel.registerUnitToWorkOrder(request);
         }
         
         public int registerUnitToWorkOrder(string workorder, string serial, float qty, string lotnum, string sublotnum, string warehousebin, string warehouseloc, string username, out string msg) {
-            FinalInspectionKia.Runcard.registerUnitToWorkOrderRequest inValue = new FinalInspectionKia.Runcard.registerUnitToWorkOrderRequest();
+            FinalInspectionNET.Runcard.registerUnitToWorkOrderRequest inValue = new FinalInspectionNET.Runcard.registerUnitToWorkOrderRequest();
             inValue.workorder = workorder;
             inValue.serial = serial;
             inValue.qty = qty;
@@ -6597,97 +6597,97 @@ namespace FinalInspectionKia.Runcard {
             inValue.warehousebin = warehousebin;
             inValue.warehouseloc = warehouseloc;
             inValue.username = username;
-            FinalInspectionKia.Runcard.registerUnitToWorkOrderResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).registerUnitToWorkOrder(inValue);
+            FinalInspectionNET.Runcard.registerUnitToWorkOrderResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).registerUnitToWorkOrder(inValue);
             msg = retVal.msg;
             return retVal.error;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.registerUnitToWorkOrderResponse> registerUnitToWorkOrderAsync(FinalInspectionKia.Runcard.registerUnitToWorkOrderRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.registerUnitToWorkOrderResponse> registerUnitToWorkOrderAsync(FinalInspectionNET.Runcard.registerUnitToWorkOrderRequest request) {
             return base.Channel.registerUnitToWorkOrderAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.getMachineStatusResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.getMachineStatus(FinalInspectionKia.Runcard.getMachineStatusRequest request) {
+        FinalInspectionNET.Runcard.getMachineStatusResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.getMachineStatus(FinalInspectionNET.Runcard.getMachineStatusRequest request) {
             return base.Channel.getMachineStatus(request);
         }
         
-        public FinalInspectionKia.Runcard.machineStatus getMachineStatus(string system_id, out int error, out string msg) {
-            FinalInspectionKia.Runcard.getMachineStatusRequest inValue = new FinalInspectionKia.Runcard.getMachineStatusRequest();
+        public FinalInspectionNET.Runcard.machineStatus getMachineStatus(string system_id, out int error, out string msg) {
+            FinalInspectionNET.Runcard.getMachineStatusRequest inValue = new FinalInspectionNET.Runcard.getMachineStatusRequest();
             inValue.system_id = system_id;
-            FinalInspectionKia.Runcard.getMachineStatusResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).getMachineStatus(inValue);
+            FinalInspectionNET.Runcard.getMachineStatusResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).getMachineStatus(inValue);
             error = retVal.error;
             msg = retVal.msg;
             return retVal.@return;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.getMachineStatusResponse> getMachineStatusAsync(FinalInspectionKia.Runcard.getMachineStatusRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.getMachineStatusResponse> getMachineStatusAsync(FinalInspectionNET.Runcard.getMachineStatusRequest request) {
             return base.Channel.getMachineStatusAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.backFlushInventoryResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.backFlushInventory(FinalInspectionKia.Runcard.backFlushInventoryRequest request) {
+        FinalInspectionNET.Runcard.backFlushInventoryResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.backFlushInventory(FinalInspectionNET.Runcard.backFlushInventoryRequest request) {
             return base.Channel.backFlushInventory(request);
         }
         
-        public int backFlushInventory(FinalInspectionKia.Runcard.productionUnit request, FinalInspectionKia.Runcard.bomItem[] bomData, out string msg) {
-            FinalInspectionKia.Runcard.backFlushInventoryRequest inValue = new FinalInspectionKia.Runcard.backFlushInventoryRequest();
+        public int backFlushInventory(FinalInspectionNET.Runcard.productionUnit request, FinalInspectionNET.Runcard.bomItem[] bomData, out string msg) {
+            FinalInspectionNET.Runcard.backFlushInventoryRequest inValue = new FinalInspectionNET.Runcard.backFlushInventoryRequest();
             inValue.request = request;
             inValue.bomData = bomData;
-            FinalInspectionKia.Runcard.backFlushInventoryResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).backFlushInventory(inValue);
+            FinalInspectionNET.Runcard.backFlushInventoryResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).backFlushInventory(inValue);
             msg = retVal.msg;
             return retVal.error;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.backFlushInventoryResponse> backFlushInventoryAsync(FinalInspectionKia.Runcard.backFlushInventoryRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.backFlushInventoryResponse> backFlushInventoryAsync(FinalInspectionNET.Runcard.backFlushInventoryRequest request) {
             return base.Channel.backFlushInventoryAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.getUnitBOMItemsResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.getUnitBOMItems(FinalInspectionKia.Runcard.getUnitBOMItemsRequest request) {
+        FinalInspectionNET.Runcard.getUnitBOMItemsResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.getUnitBOMItems(FinalInspectionNET.Runcard.getUnitBOMItemsRequest request) {
             return base.Channel.getUnitBOMItems(request);
         }
         
-        public FinalInspectionKia.Runcard.unitBOMitem[] getUnitBOMItems(string serial, string workorder, int seqnum, out int error, out string msg) {
-            FinalInspectionKia.Runcard.getUnitBOMItemsRequest inValue = new FinalInspectionKia.Runcard.getUnitBOMItemsRequest();
+        public FinalInspectionNET.Runcard.unitBOMitem[] getUnitBOMItems(string serial, string workorder, int seqnum, out int error, out string msg) {
+            FinalInspectionNET.Runcard.getUnitBOMItemsRequest inValue = new FinalInspectionNET.Runcard.getUnitBOMItemsRequest();
             inValue.serial = serial;
             inValue.workorder = workorder;
             inValue.seqnum = seqnum;
-            FinalInspectionKia.Runcard.getUnitBOMItemsResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).getUnitBOMItems(inValue);
+            FinalInspectionNET.Runcard.getUnitBOMItemsResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).getUnitBOMItems(inValue);
             error = retVal.error;
             msg = retVal.msg;
             return retVal.@return;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.getUnitBOMItemsResponse> getUnitBOMItemsAsync(FinalInspectionKia.Runcard.getUnitBOMItemsRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.getUnitBOMItemsResponse> getUnitBOMItemsAsync(FinalInspectionNET.Runcard.getUnitBOMItemsRequest request) {
             return base.Channel.getUnitBOMItemsAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.updateUnitInventoryPartBinResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.updateUnitInventoryPartBin(FinalInspectionKia.Runcard.updateUnitInventoryPartBinRequest request) {
+        FinalInspectionNET.Runcard.updateUnitInventoryPartBinResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.updateUnitInventoryPartBin(FinalInspectionNET.Runcard.updateUnitInventoryPartBinRequest request) {
             return base.Channel.updateUnitInventoryPartBin(request);
         }
         
         public int updateUnitInventoryPartBin(string username, string serial, string part_bin, out string msg) {
-            FinalInspectionKia.Runcard.updateUnitInventoryPartBinRequest inValue = new FinalInspectionKia.Runcard.updateUnitInventoryPartBinRequest();
+            FinalInspectionNET.Runcard.updateUnitInventoryPartBinRequest inValue = new FinalInspectionNET.Runcard.updateUnitInventoryPartBinRequest();
             inValue.username = username;
             inValue.serial = serial;
             inValue.part_bin = part_bin;
-            FinalInspectionKia.Runcard.updateUnitInventoryPartBinResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).updateUnitInventoryPartBin(inValue);
+            FinalInspectionNET.Runcard.updateUnitInventoryPartBinResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).updateUnitInventoryPartBin(inValue);
             msg = retVal.msg;
             return retVal.error;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.updateUnitInventoryPartBinResponse> updateUnitInventoryPartBinAsync(FinalInspectionKia.Runcard.updateUnitInventoryPartBinRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.updateUnitInventoryPartBinResponse> updateUnitInventoryPartBinAsync(FinalInspectionNET.Runcard.updateUnitInventoryPartBinRequest request) {
             return base.Channel.updateUnitInventoryPartBinAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.pickUnitToWorkOrderResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.pickUnitToWorkOrder(FinalInspectionKia.Runcard.pickUnitToWorkOrderRequest request) {
+        FinalInspectionNET.Runcard.pickUnitToWorkOrderResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.pickUnitToWorkOrder(FinalInspectionNET.Runcard.pickUnitToWorkOrderRequest request) {
             return base.Channel.pickUnitToWorkOrder(request);
         }
         
         public int pickUnitToWorkOrder(string serial, string partnum, string partrev, string workorder, string warehousebin, string warehouseloc, string @operator, out string msg) {
-            FinalInspectionKia.Runcard.pickUnitToWorkOrderRequest inValue = new FinalInspectionKia.Runcard.pickUnitToWorkOrderRequest();
+            FinalInspectionNET.Runcard.pickUnitToWorkOrderRequest inValue = new FinalInspectionNET.Runcard.pickUnitToWorkOrderRequest();
             inValue.serial = serial;
             inValue.partnum = partnum;
             inValue.partrev = partrev;
@@ -6695,22 +6695,22 @@ namespace FinalInspectionKia.Runcard {
             inValue.warehousebin = warehousebin;
             inValue.warehouseloc = warehouseloc;
             inValue.@operator = @operator;
-            FinalInspectionKia.Runcard.pickUnitToWorkOrderResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).pickUnitToWorkOrder(inValue);
+            FinalInspectionNET.Runcard.pickUnitToWorkOrderResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).pickUnitToWorkOrder(inValue);
             msg = retVal.msg;
             return retVal.error;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.pickUnitToWorkOrderResponse> pickUnitToWorkOrderAsync(FinalInspectionKia.Runcard.pickUnitToWorkOrderRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.pickUnitToWorkOrderResponse> pickUnitToWorkOrderAsync(FinalInspectionNET.Runcard.pickUnitToWorkOrderRequest request) {
             return base.Channel.pickUnitToWorkOrderAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.fetchUnitGenealogyResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.fetchUnitGenealogy(FinalInspectionKia.Runcard.fetchUnitGenealogyRequest request) {
+        FinalInspectionNET.Runcard.fetchUnitGenealogyResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.fetchUnitGenealogy(FinalInspectionNET.Runcard.fetchUnitGenealogyRequest request) {
             return base.Channel.fetchUnitGenealogy(request);
         }
         
-        public FinalInspectionKia.Runcard.GenealogyItem[] fetchUnitGenealogy(string partnum, string partrev, string lotnum, string serial, string workorder, string opcode, int seqnum, int whereUsed, out int error, out string msg) {
-            FinalInspectionKia.Runcard.fetchUnitGenealogyRequest inValue = new FinalInspectionKia.Runcard.fetchUnitGenealogyRequest();
+        public FinalInspectionNET.Runcard.GenealogyItem[] fetchUnitGenealogy(string partnum, string partrev, string lotnum, string serial, string workorder, string opcode, int seqnum, int whereUsed, out int error, out string msg) {
+            FinalInspectionNET.Runcard.fetchUnitGenealogyRequest inValue = new FinalInspectionNET.Runcard.fetchUnitGenealogyRequest();
             inValue.partnum = partnum;
             inValue.partrev = partrev;
             inValue.lotnum = lotnum;
@@ -6719,355 +6719,355 @@ namespace FinalInspectionKia.Runcard {
             inValue.opcode = opcode;
             inValue.seqnum = seqnum;
             inValue.whereUsed = whereUsed;
-            FinalInspectionKia.Runcard.fetchUnitGenealogyResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).fetchUnitGenealogy(inValue);
+            FinalInspectionNET.Runcard.fetchUnitGenealogyResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).fetchUnitGenealogy(inValue);
             error = retVal.error;
             msg = retVal.msg;
             return retVal.@return;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.fetchUnitGenealogyResponse> fetchUnitGenealogyAsync(FinalInspectionKia.Runcard.fetchUnitGenealogyRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.fetchUnitGenealogyResponse> fetchUnitGenealogyAsync(FinalInspectionNET.Runcard.fetchUnitGenealogyRequest request) {
             return base.Channel.fetchUnitGenealogyAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.logMachineEnvironmentDataResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.logMachineEnvironmentData(FinalInspectionKia.Runcard.logMachineEnvironmentDataRequest request) {
+        FinalInspectionNET.Runcard.logMachineEnvironmentDataResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.logMachineEnvironmentData(FinalInspectionNET.Runcard.logMachineEnvironmentDataRequest request) {
             return base.Channel.logMachineEnvironmentData(request);
         }
         
         public int logMachineEnvironmentData(string system_id, string warehouseloc, string opcode, string name, string value, out string msg) {
-            FinalInspectionKia.Runcard.logMachineEnvironmentDataRequest inValue = new FinalInspectionKia.Runcard.logMachineEnvironmentDataRequest();
+            FinalInspectionNET.Runcard.logMachineEnvironmentDataRequest inValue = new FinalInspectionNET.Runcard.logMachineEnvironmentDataRequest();
             inValue.system_id = system_id;
             inValue.warehouseloc = warehouseloc;
             inValue.opcode = opcode;
             inValue.name = name;
             inValue.value = value;
-            FinalInspectionKia.Runcard.logMachineEnvironmentDataResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).logMachineEnvironmentData(inValue);
+            FinalInspectionNET.Runcard.logMachineEnvironmentDataResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).logMachineEnvironmentData(inValue);
             msg = retVal.msg;
             return retVal.error;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.logMachineEnvironmentDataResponse> logMachineEnvironmentDataAsync(FinalInspectionKia.Runcard.logMachineEnvironmentDataRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.logMachineEnvironmentDataResponse> logMachineEnvironmentDataAsync(FinalInspectionNET.Runcard.logMachineEnvironmentDataRequest request) {
             return base.Channel.logMachineEnvironmentDataAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.getNextAvailableSerialResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.getNextAvailableSerial(FinalInspectionKia.Runcard.getNextAvailableSerialRequest request) {
+        FinalInspectionNET.Runcard.getNextAvailableSerialResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.getNextAvailableSerial(FinalInspectionNET.Runcard.getNextAvailableSerialRequest request) {
             return base.Channel.getNextAvailableSerial(request);
         }
         
-        public FinalInspectionKia.Runcard.nextSerialInfo getNextAvailableSerial(string workorder, out int error, out string msg) {
-            FinalInspectionKia.Runcard.getNextAvailableSerialRequest inValue = new FinalInspectionKia.Runcard.getNextAvailableSerialRequest();
+        public FinalInspectionNET.Runcard.nextSerialInfo getNextAvailableSerial(string workorder, out int error, out string msg) {
+            FinalInspectionNET.Runcard.getNextAvailableSerialRequest inValue = new FinalInspectionNET.Runcard.getNextAvailableSerialRequest();
             inValue.workorder = workorder;
-            FinalInspectionKia.Runcard.getNextAvailableSerialResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).getNextAvailableSerial(inValue);
+            FinalInspectionNET.Runcard.getNextAvailableSerialResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).getNextAvailableSerial(inValue);
             error = retVal.error;
             msg = retVal.msg;
             return retVal.@return;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.getNextAvailableSerialResponse> getNextAvailableSerialAsync(FinalInspectionKia.Runcard.getNextAvailableSerialRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.getNextAvailableSerialResponse> getNextAvailableSerialAsync(FinalInspectionNET.Runcard.getNextAvailableSerialRequest request) {
             return base.Channel.getNextAvailableSerialAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.assignUnitToCarrierResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.assignUnitToCarrier(FinalInspectionKia.Runcard.assignUnitToCarrierRequest request) {
+        FinalInspectionNET.Runcard.assignUnitToCarrierResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.assignUnitToCarrier(FinalInspectionNET.Runcard.assignUnitToCarrierRequest request) {
             return base.Channel.assignUnitToCarrier(request);
         }
         
         public int assignUnitToCarrier(string serial, string machine_id, string carrier_id, string carrier_col, string carrier_row, out string msg) {
-            FinalInspectionKia.Runcard.assignUnitToCarrierRequest inValue = new FinalInspectionKia.Runcard.assignUnitToCarrierRequest();
+            FinalInspectionNET.Runcard.assignUnitToCarrierRequest inValue = new FinalInspectionNET.Runcard.assignUnitToCarrierRequest();
             inValue.serial = serial;
             inValue.machine_id = machine_id;
             inValue.carrier_id = carrier_id;
             inValue.carrier_col = carrier_col;
             inValue.carrier_row = carrier_row;
-            FinalInspectionKia.Runcard.assignUnitToCarrierResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).assignUnitToCarrier(inValue);
+            FinalInspectionNET.Runcard.assignUnitToCarrierResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).assignUnitToCarrier(inValue);
             msg = retVal.msg;
             return retVal.error;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.assignUnitToCarrierResponse> assignUnitToCarrierAsync(FinalInspectionKia.Runcard.assignUnitToCarrierRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.assignUnitToCarrierResponse> assignUnitToCarrierAsync(FinalInspectionNET.Runcard.assignUnitToCarrierRequest request) {
             return base.Channel.assignUnitToCarrierAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.removeUnitFromCarrierResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.removeUnitFromCarrier(FinalInspectionKia.Runcard.removeUnitFromCarrierRequest request) {
+        FinalInspectionNET.Runcard.removeUnitFromCarrierResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.removeUnitFromCarrier(FinalInspectionNET.Runcard.removeUnitFromCarrierRequest request) {
             return base.Channel.removeUnitFromCarrier(request);
         }
         
         public int removeUnitFromCarrier(string serial, string machine_id, string carrier_id, out string msg) {
-            FinalInspectionKia.Runcard.removeUnitFromCarrierRequest inValue = new FinalInspectionKia.Runcard.removeUnitFromCarrierRequest();
+            FinalInspectionNET.Runcard.removeUnitFromCarrierRequest inValue = new FinalInspectionNET.Runcard.removeUnitFromCarrierRequest();
             inValue.serial = serial;
             inValue.machine_id = machine_id;
             inValue.carrier_id = carrier_id;
-            FinalInspectionKia.Runcard.removeUnitFromCarrierResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).removeUnitFromCarrier(inValue);
+            FinalInspectionNET.Runcard.removeUnitFromCarrierResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).removeUnitFromCarrier(inValue);
             msg = retVal.msg;
             return retVal.error;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.removeUnitFromCarrierResponse> removeUnitFromCarrierAsync(FinalInspectionKia.Runcard.removeUnitFromCarrierRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.removeUnitFromCarrierResponse> removeUnitFromCarrierAsync(FinalInspectionNET.Runcard.removeUnitFromCarrierRequest request) {
             return base.Channel.removeUnitFromCarrierAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.getCarrierStatusResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.getCarrierStatus(FinalInspectionKia.Runcard.getCarrierStatusRequest request) {
+        FinalInspectionNET.Runcard.getCarrierStatusResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.getCarrierStatus(FinalInspectionNET.Runcard.getCarrierStatusRequest request) {
             return base.Channel.getCarrierStatus(request);
         }
         
-        public FinalInspectionKia.Runcard.carrierUnitItem[] getCarrierStatus(string carrier_id, string machine_id, int machine_opcode_only, out int error, out string msg) {
-            FinalInspectionKia.Runcard.getCarrierStatusRequest inValue = new FinalInspectionKia.Runcard.getCarrierStatusRequest();
+        public FinalInspectionNET.Runcard.carrierUnitItem[] getCarrierStatus(string carrier_id, string machine_id, int machine_opcode_only, out int error, out string msg) {
+            FinalInspectionNET.Runcard.getCarrierStatusRequest inValue = new FinalInspectionNET.Runcard.getCarrierStatusRequest();
             inValue.carrier_id = carrier_id;
             inValue.machine_id = machine_id;
             inValue.machine_opcode_only = machine_opcode_only;
-            FinalInspectionKia.Runcard.getCarrierStatusResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).getCarrierStatus(inValue);
+            FinalInspectionNET.Runcard.getCarrierStatusResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).getCarrierStatus(inValue);
             error = retVal.error;
             msg = retVal.msg;
             return retVal.carrierStatus;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.getCarrierStatusResponse> getCarrierStatusAsync(FinalInspectionKia.Runcard.getCarrierStatusRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.getCarrierStatusResponse> getCarrierStatusAsync(FinalInspectionNET.Runcard.getCarrierStatusRequest request) {
             return base.Channel.getCarrierStatusAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.transactCarrierResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.transactCarrier(FinalInspectionKia.Runcard.transactCarrierRequest request) {
+        FinalInspectionNET.Runcard.transactCarrierResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.transactCarrier(FinalInspectionNET.Runcard.transactCarrierRequest request) {
             return base.Channel.transactCarrier(request);
         }
         
-        public int transactCarrier(FinalInspectionKia.Runcard.transactionCarrier request, FinalInspectionKia.Runcard.dataItem[] inputData, FinalInspectionKia.Runcard.bomItem[] bomData, out string msg) {
-            FinalInspectionKia.Runcard.transactCarrierRequest inValue = new FinalInspectionKia.Runcard.transactCarrierRequest();
+        public int transactCarrier(FinalInspectionNET.Runcard.transactionCarrier request, FinalInspectionNET.Runcard.dataItem[] inputData, FinalInspectionNET.Runcard.bomItem[] bomData, out string msg) {
+            FinalInspectionNET.Runcard.transactCarrierRequest inValue = new FinalInspectionNET.Runcard.transactCarrierRequest();
             inValue.request = request;
             inValue.inputData = inputData;
             inValue.bomData = bomData;
-            FinalInspectionKia.Runcard.transactCarrierResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).transactCarrier(inValue);
+            FinalInspectionNET.Runcard.transactCarrierResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).transactCarrier(inValue);
             msg = retVal.msg;
             return retVal.error;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.transactCarrierResponse> transactCarrierAsync(FinalInspectionKia.Runcard.transactCarrierRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.transactCarrierResponse> transactCarrierAsync(FinalInspectionNET.Runcard.transactCarrierRequest request) {
             return base.Channel.transactCarrierAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.printUnitLabelResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.printUnitLabel(FinalInspectionKia.Runcard.printUnitLabelRequest request) {
+        FinalInspectionNET.Runcard.printUnitLabelResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.printUnitLabel(FinalInspectionNET.Runcard.printUnitLabelRequest request) {
             return base.Channel.printUnitLabel(request);
         }
         
         public int printUnitLabel(string serial, string machine_id, out string msg) {
-            FinalInspectionKia.Runcard.printUnitLabelRequest inValue = new FinalInspectionKia.Runcard.printUnitLabelRequest();
+            FinalInspectionNET.Runcard.printUnitLabelRequest inValue = new FinalInspectionNET.Runcard.printUnitLabelRequest();
             inValue.serial = serial;
             inValue.machine_id = machine_id;
-            FinalInspectionKia.Runcard.printUnitLabelResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).printUnitLabel(inValue);
+            FinalInspectionNET.Runcard.printUnitLabelResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).printUnitLabel(inValue);
             msg = retVal.msg;
             return retVal.error;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.printUnitLabelResponse> printUnitLabelAsync(FinalInspectionKia.Runcard.printUnitLabelRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.printUnitLabelResponse> printUnitLabelAsync(FinalInspectionNET.Runcard.printUnitLabelRequest request) {
             return base.Channel.printUnitLabelAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.fetchDefectCodeListResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.fetchDefectCodeList(FinalInspectionKia.Runcard.fetchDefectCodeListRequest request) {
+        FinalInspectionNET.Runcard.fetchDefectCodeListResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.fetchDefectCodeList(FinalInspectionNET.Runcard.fetchDefectCodeListRequest request) {
             return base.Channel.fetchDefectCodeList(request);
         }
         
-        public FinalInspectionKia.Runcard.DefectItem[] fetchDefectCodeList(string opcode, out int error, out string msg) {
-            FinalInspectionKia.Runcard.fetchDefectCodeListRequest inValue = new FinalInspectionKia.Runcard.fetchDefectCodeListRequest();
+        public FinalInspectionNET.Runcard.DefectItem[] fetchDefectCodeList(string opcode, out int error, out string msg) {
+            FinalInspectionNET.Runcard.fetchDefectCodeListRequest inValue = new FinalInspectionNET.Runcard.fetchDefectCodeListRequest();
             inValue.opcode = opcode;
-            FinalInspectionKia.Runcard.fetchDefectCodeListResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).fetchDefectCodeList(inValue);
+            FinalInspectionNET.Runcard.fetchDefectCodeListResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).fetchDefectCodeList(inValue);
             error = retVal.error;
             msg = retVal.msg;
             return retVal.@return;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.fetchDefectCodeListResponse> fetchDefectCodeListAsync(FinalInspectionKia.Runcard.fetchDefectCodeListRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.fetchDefectCodeListResponse> fetchDefectCodeListAsync(FinalInspectionNET.Runcard.fetchDefectCodeListRequest request) {
             return base.Channel.fetchDefectCodeListAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.getAvailableWorkOrdersResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.getAvailableWorkOrders(FinalInspectionKia.Runcard.getAvailableWorkOrdersRequest request) {
+        FinalInspectionNET.Runcard.getAvailableWorkOrdersResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.getAvailableWorkOrders(FinalInspectionNET.Runcard.getAvailableWorkOrdersRequest request) {
             return base.Channel.getAvailableWorkOrders(request);
         }
         
-        public FinalInspectionKia.Runcard.workOrderItem[] getAvailableWorkOrders(string partnum, string partrev, out int error, out string msg) {
-            FinalInspectionKia.Runcard.getAvailableWorkOrdersRequest inValue = new FinalInspectionKia.Runcard.getAvailableWorkOrdersRequest();
+        public FinalInspectionNET.Runcard.workOrderItem[] getAvailableWorkOrders(string partnum, string partrev, out int error, out string msg) {
+            FinalInspectionNET.Runcard.getAvailableWorkOrdersRequest inValue = new FinalInspectionNET.Runcard.getAvailableWorkOrdersRequest();
             inValue.partnum = partnum;
             inValue.partrev = partrev;
-            FinalInspectionKia.Runcard.getAvailableWorkOrdersResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).getAvailableWorkOrders(inValue);
+            FinalInspectionNET.Runcard.getAvailableWorkOrdersResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).getAvailableWorkOrders(inValue);
             error = retVal.error;
             msg = retVal.msg;
             return retVal.@return;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.getAvailableWorkOrdersResponse> getAvailableWorkOrdersAsync(FinalInspectionKia.Runcard.getAvailableWorkOrdersRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.getAvailableWorkOrdersResponse> getAvailableWorkOrdersAsync(FinalInspectionNET.Runcard.getAvailableWorkOrdersRequest request) {
             return base.Channel.getAvailableWorkOrdersAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.scrapInventoryItemResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.scrapInventoryItem(FinalInspectionKia.Runcard.scrapInventoryItemRequest request) {
+        FinalInspectionNET.Runcard.scrapInventoryItemResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.scrapInventoryItem(FinalInspectionNET.Runcard.scrapInventoryItemRequest request) {
             return base.Channel.scrapInventoryItem(request);
         }
         
         public int scrapInventoryItem(string serial, string machine_id, out string msg) {
-            FinalInspectionKia.Runcard.scrapInventoryItemRequest inValue = new FinalInspectionKia.Runcard.scrapInventoryItemRequest();
+            FinalInspectionNET.Runcard.scrapInventoryItemRequest inValue = new FinalInspectionNET.Runcard.scrapInventoryItemRequest();
             inValue.serial = serial;
             inValue.machine_id = machine_id;
-            FinalInspectionKia.Runcard.scrapInventoryItemResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).scrapInventoryItem(inValue);
+            FinalInspectionNET.Runcard.scrapInventoryItemResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).scrapInventoryItem(inValue);
             msg = retVal.msg;
             return retVal.error;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.scrapInventoryItemResponse> scrapInventoryItemAsync(FinalInspectionKia.Runcard.scrapInventoryItemRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.scrapInventoryItemResponse> scrapInventoryItemAsync(FinalInspectionNET.Runcard.scrapInventoryItemRequest request) {
             return base.Channel.scrapInventoryItemAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.isValidWorkOrderBomComponentResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.isValidWorkOrderBomComponent(FinalInspectionKia.Runcard.isValidWorkOrderBomComponentRequest request) {
+        FinalInspectionNET.Runcard.isValidWorkOrderBomComponentResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.isValidWorkOrderBomComponent(FinalInspectionNET.Runcard.isValidWorkOrderBomComponentRequest request) {
             return base.Channel.isValidWorkOrderBomComponent(request);
         }
         
         public int isValidWorkOrderBomComponent(string workorder, string bom_item_serial, out int error, out string msg) {
-            FinalInspectionKia.Runcard.isValidWorkOrderBomComponentRequest inValue = new FinalInspectionKia.Runcard.isValidWorkOrderBomComponentRequest();
+            FinalInspectionNET.Runcard.isValidWorkOrderBomComponentRequest inValue = new FinalInspectionNET.Runcard.isValidWorkOrderBomComponentRequest();
             inValue.workorder = workorder;
             inValue.bom_item_serial = bom_item_serial;
-            FinalInspectionKia.Runcard.isValidWorkOrderBomComponentResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).isValidWorkOrderBomComponent(inValue);
+            FinalInspectionNET.Runcard.isValidWorkOrderBomComponentResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).isValidWorkOrderBomComponent(inValue);
             error = retVal.error;
             msg = retVal.msg;
             return retVal.@return;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.isValidWorkOrderBomComponentResponse> isValidWorkOrderBomComponentAsync(FinalInspectionKia.Runcard.isValidWorkOrderBomComponentRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.isValidWorkOrderBomComponentResponse> isValidWorkOrderBomComponentAsync(FinalInspectionNET.Runcard.isValidWorkOrderBomComponentRequest request) {
             return base.Channel.isValidWorkOrderBomComponentAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.generateNewWorkOrderSerialResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.generateNewWorkOrderSerial(FinalInspectionKia.Runcard.generateNewWorkOrderSerialRequest request) {
+        FinalInspectionNET.Runcard.generateNewWorkOrderSerialResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.generateNewWorkOrderSerial(FinalInspectionNET.Runcard.generateNewWorkOrderSerialRequest request) {
             return base.Channel.generateNewWorkOrderSerial(request);
         }
         
         public string generateNewWorkOrderSerial(string workorder, string username, string machine_id, out int error, out string msg) {
-            FinalInspectionKia.Runcard.generateNewWorkOrderSerialRequest inValue = new FinalInspectionKia.Runcard.generateNewWorkOrderSerialRequest();
+            FinalInspectionNET.Runcard.generateNewWorkOrderSerialRequest inValue = new FinalInspectionNET.Runcard.generateNewWorkOrderSerialRequest();
             inValue.workorder = workorder;
             inValue.username = username;
             inValue.machine_id = machine_id;
-            FinalInspectionKia.Runcard.generateNewWorkOrderSerialResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).generateNewWorkOrderSerial(inValue);
+            FinalInspectionNET.Runcard.generateNewWorkOrderSerialResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).generateNewWorkOrderSerial(inValue);
             error = retVal.error;
             msg = retVal.msg;
             return retVal.@return;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.generateNewWorkOrderSerialResponse> generateNewWorkOrderSerialAsync(FinalInspectionKia.Runcard.generateNewWorkOrderSerialRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.generateNewWorkOrderSerialResponse> generateNewWorkOrderSerialAsync(FinalInspectionNET.Runcard.generateNewWorkOrderSerialRequest request) {
             return base.Channel.generateNewWorkOrderSerialAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.generateNewWorkOrderBatchSerialResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.generateNewWorkOrderBatchSerial(FinalInspectionKia.Runcard.generateNewWorkOrderBatchSerialRequest request) {
+        FinalInspectionNET.Runcard.generateNewWorkOrderBatchSerialResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.generateNewWorkOrderBatchSerial(FinalInspectionNET.Runcard.generateNewWorkOrderBatchSerialRequest request) {
             return base.Channel.generateNewWorkOrderBatchSerial(request);
         }
         
         public string generateNewWorkOrderBatchSerial(string workorder, float batch_qty, string username, string machine_id, out int error, out string msg) {
-            FinalInspectionKia.Runcard.generateNewWorkOrderBatchSerialRequest inValue = new FinalInspectionKia.Runcard.generateNewWorkOrderBatchSerialRequest();
+            FinalInspectionNET.Runcard.generateNewWorkOrderBatchSerialRequest inValue = new FinalInspectionNET.Runcard.generateNewWorkOrderBatchSerialRequest();
             inValue.workorder = workorder;
             inValue.batch_qty = batch_qty;
             inValue.username = username;
             inValue.machine_id = machine_id;
-            FinalInspectionKia.Runcard.generateNewWorkOrderBatchSerialResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).generateNewWorkOrderBatchSerial(inValue);
+            FinalInspectionNET.Runcard.generateNewWorkOrderBatchSerialResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).generateNewWorkOrderBatchSerial(inValue);
             error = retVal.error;
             msg = retVal.msg;
             return retVal.@return;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.generateNewWorkOrderBatchSerialResponse> generateNewWorkOrderBatchSerialAsync(FinalInspectionKia.Runcard.generateNewWorkOrderBatchSerialRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.generateNewWorkOrderBatchSerialResponse> generateNewWorkOrderBatchSerialAsync(FinalInspectionNET.Runcard.generateNewWorkOrderBatchSerialRequest request) {
             return base.Channel.generateNewWorkOrderBatchSerialAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.setMSDTimerResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.setMSDTimer(FinalInspectionKia.Runcard.setMSDTimerRequest request) {
+        FinalInspectionNET.Runcard.setMSDTimerResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.setMSDTimer(FinalInspectionNET.Runcard.setMSDTimerRequest request) {
             return base.Channel.setMSDTimer(request);
         }
         
-        public int setMSDTimer(string serial, string action, out string msg, out FinalInspectionKia.Runcard.msdTimerReturn @return) {
-            FinalInspectionKia.Runcard.setMSDTimerRequest inValue = new FinalInspectionKia.Runcard.setMSDTimerRequest();
+        public int setMSDTimer(string serial, string action, out string msg, out FinalInspectionNET.Runcard.msdTimerReturn @return) {
+            FinalInspectionNET.Runcard.setMSDTimerRequest inValue = new FinalInspectionNET.Runcard.setMSDTimerRequest();
             inValue.serial = serial;
             inValue.action = action;
-            FinalInspectionKia.Runcard.setMSDTimerResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).setMSDTimer(inValue);
+            FinalInspectionNET.Runcard.setMSDTimerResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).setMSDTimer(inValue);
             msg = retVal.msg;
             @return = retVal.@return;
             return retVal.error;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.setMSDTimerResponse> setMSDTimerAsync(FinalInspectionKia.Runcard.setMSDTimerRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.setMSDTimerResponse> setMSDTimerAsync(FinalInspectionNET.Runcard.setMSDTimerRequest request) {
             return base.Channel.setMSDTimerAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.fetchUnitProductFieldsResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.fetchUnitProductFields(FinalInspectionKia.Runcard.fetchUnitProductFieldsRequest request) {
+        FinalInspectionNET.Runcard.fetchUnitProductFieldsResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.fetchUnitProductFields(FinalInspectionNET.Runcard.fetchUnitProductFieldsRequest request) {
             return base.Channel.fetchUnitProductFields(request);
         }
         
-        public FinalInspectionKia.Runcard.UnitProductFields fetchUnitProductFields(string serial, out int error, out string msg) {
-            FinalInspectionKia.Runcard.fetchUnitProductFieldsRequest inValue = new FinalInspectionKia.Runcard.fetchUnitProductFieldsRequest();
+        public FinalInspectionNET.Runcard.UnitProductFields fetchUnitProductFields(string serial, out int error, out string msg) {
+            FinalInspectionNET.Runcard.fetchUnitProductFieldsRequest inValue = new FinalInspectionNET.Runcard.fetchUnitProductFieldsRequest();
             inValue.serial = serial;
-            FinalInspectionKia.Runcard.fetchUnitProductFieldsResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).fetchUnitProductFields(inValue);
+            FinalInspectionNET.Runcard.fetchUnitProductFieldsResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).fetchUnitProductFields(inValue);
             error = retVal.error;
             msg = retVal.msg;
             return retVal.@return;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.fetchUnitProductFieldsResponse> fetchUnitProductFieldsAsync(FinalInspectionKia.Runcard.fetchUnitProductFieldsRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.fetchUnitProductFieldsResponse> fetchUnitProductFieldsAsync(FinalInspectionNET.Runcard.fetchUnitProductFieldsRequest request) {
             return base.Channel.fetchUnitProductFieldsAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.issueWorkOrderResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.issueWorkOrder(FinalInspectionKia.Runcard.issueWorkOrderRequest request) {
+        FinalInspectionNET.Runcard.issueWorkOrderResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.issueWorkOrder(FinalInspectionNET.Runcard.issueWorkOrderRequest request) {
             return base.Channel.issueWorkOrder(request);
         }
         
-        public string issueWorkOrder(FinalInspectionKia.Runcard.workOrderInfo workOrderInfo, out int error, out string msg) {
-            FinalInspectionKia.Runcard.issueWorkOrderRequest inValue = new FinalInspectionKia.Runcard.issueWorkOrderRequest();
+        public string issueWorkOrder(FinalInspectionNET.Runcard.workOrderInfo workOrderInfo, out int error, out string msg) {
+            FinalInspectionNET.Runcard.issueWorkOrderRequest inValue = new FinalInspectionNET.Runcard.issueWorkOrderRequest();
             inValue.workOrderInfo = workOrderInfo;
-            FinalInspectionKia.Runcard.issueWorkOrderResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).issueWorkOrder(inValue);
+            FinalInspectionNET.Runcard.issueWorkOrderResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).issueWorkOrder(inValue);
             error = retVal.error;
             msg = retVal.msg;
             return retVal.workorder;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.issueWorkOrderResponse> issueWorkOrderAsync(FinalInspectionKia.Runcard.issueWorkOrderRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.issueWorkOrderResponse> issueWorkOrderAsync(FinalInspectionNET.Runcard.issueWorkOrderRequest request) {
             return base.Channel.issueWorkOrderAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.releaseInventoryItemResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.releaseInventoryItem(FinalInspectionKia.Runcard.releaseInventoryItemRequest request) {
+        FinalInspectionNET.Runcard.releaseInventoryItemResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.releaseInventoryItem(FinalInspectionNET.Runcard.releaseInventoryItemRequest request) {
             return base.Channel.releaseInventoryItem(request);
         }
         
         public int releaseInventoryItem(string serial, string machine_id, out string msg) {
-            FinalInspectionKia.Runcard.releaseInventoryItemRequest inValue = new FinalInspectionKia.Runcard.releaseInventoryItemRequest();
+            FinalInspectionNET.Runcard.releaseInventoryItemRequest inValue = new FinalInspectionNET.Runcard.releaseInventoryItemRequest();
             inValue.serial = serial;
             inValue.machine_id = machine_id;
-            FinalInspectionKia.Runcard.releaseInventoryItemResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).releaseInventoryItem(inValue);
+            FinalInspectionNET.Runcard.releaseInventoryItemResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).releaseInventoryItem(inValue);
             msg = retVal.msg;
             return retVal.error;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.releaseInventoryItemResponse> releaseInventoryItemAsync(FinalInspectionKia.Runcard.releaseInventoryItemRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.releaseInventoryItemResponse> releaseInventoryItemAsync(FinalInspectionNET.Runcard.releaseInventoryItemRequest request) {
             return base.Channel.releaseInventoryItemAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        FinalInspectionKia.Runcard.holdInventoryItemResponse FinalInspectionKia.Runcard.runcard_wsdlPortType.holdInventoryItem(FinalInspectionKia.Runcard.holdInventoryItemRequest request) {
+        FinalInspectionNET.Runcard.holdInventoryItemResponse FinalInspectionNET.Runcard.runcard_wsdlPortType.holdInventoryItem(FinalInspectionNET.Runcard.holdInventoryItemRequest request) {
             return base.Channel.holdInventoryItem(request);
         }
         
         public int holdInventoryItem(string serial, string machine_id, out string msg) {
-            FinalInspectionKia.Runcard.holdInventoryItemRequest inValue = new FinalInspectionKia.Runcard.holdInventoryItemRequest();
+            FinalInspectionNET.Runcard.holdInventoryItemRequest inValue = new FinalInspectionNET.Runcard.holdInventoryItemRequest();
             inValue.serial = serial;
             inValue.machine_id = machine_id;
-            FinalInspectionKia.Runcard.holdInventoryItemResponse retVal = ((FinalInspectionKia.Runcard.runcard_wsdlPortType)(this)).holdInventoryItem(inValue);
+            FinalInspectionNET.Runcard.holdInventoryItemResponse retVal = ((FinalInspectionNET.Runcard.runcard_wsdlPortType)(this)).holdInventoryItem(inValue);
             msg = retVal.msg;
             return retVal.error;
         }
         
-        public System.Threading.Tasks.Task<FinalInspectionKia.Runcard.holdInventoryItemResponse> holdInventoryItemAsync(FinalInspectionKia.Runcard.holdInventoryItemRequest request) {
+        public System.Threading.Tasks.Task<FinalInspectionNET.Runcard.holdInventoryItemResponse> holdInventoryItemAsync(FinalInspectionNET.Runcard.holdInventoryItemRequest request) {
             return base.Channel.holdInventoryItemAsync(request);
         }
     }

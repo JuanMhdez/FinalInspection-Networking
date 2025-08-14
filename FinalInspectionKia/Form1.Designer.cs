@@ -43,11 +43,11 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.pictureSalir = new System.Windows.Forms.PictureBox();
             this.lblUsuario = new System.Windows.Forms.Label();
-            this.cbxRechazar = new System.Windows.Forms.ComboBox();
             this.btnRechazar = new System.Windows.Forms.Button();
-            this.lblDefecto = new System.Windows.Forms.Label();
             this.lblVersion = new System.Windows.Forms.Label();
             this.lblOpcode = new System.Windows.Forms.Label();
+            this.lblDefecto = new System.Windows.Forms.Label();
+            this.cbxRechazar = new System.Windows.Forms.ComboBox();
             this.timerAprobacion = new System.Windows.Forms.Timer(this.components);
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PBBad)).BeginInit();
@@ -97,7 +97,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.33984F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.693926F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3.291914F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1349, 637);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1924, 1175);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // PBBad
@@ -106,9 +106,9 @@
             this.PBBad.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PBBad.Enabled = false;
             this.PBBad.Image = ((System.Drawing.Image)(resources.GetObject("PBBad.Image")));
-            this.PBBad.Location = new System.Drawing.Point(109, 302);
+            this.PBBad.Location = new System.Drawing.Point(133, 551);
             this.PBBad.Name = "PBBad";
-            this.PBBad.Size = new System.Drawing.Size(97, 73);
+            this.PBBad.Size = new System.Drawing.Size(183, 160);
             this.PBBad.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PBBad.TabIndex = 11;
             this.PBBad.TabStop = false;
@@ -117,12 +117,12 @@
             // 
             // txtEtiquetaViajera
             // 
-            this.txtEtiquetaViajera.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.txtEtiquetaViajera.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.SetColumnSpan(this.txtEtiquetaViajera, 4);
-            this.txtEtiquetaViajera.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEtiquetaViajera.Location = new System.Drawing.Point(280, 200);
+            this.txtEtiquetaViajera.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEtiquetaViajera.Location = new System.Drawing.Point(399, 377);
             this.txtEtiquetaViajera.Name = "txtEtiquetaViajera";
-            this.txtEtiquetaViajera.Size = new System.Drawing.Size(785, 38);
+            this.txtEtiquetaViajera.Size = new System.Drawing.Size(1125, 64);
             this.txtEtiquetaViajera.TabIndex = 1;
             this.txtEtiquetaViajera.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtEtiquetaViajera_KeyDown);
             // 
@@ -131,11 +131,11 @@
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label2.AutoSize = true;
             this.tableLayoutPanel1.SetColumnSpan(this.label2, 3);
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 40.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(280, 152);
+            this.label2.Location = new System.Drawing.Point(399, 278);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(241, 38);
+            this.label2.Size = new System.Drawing.Size(490, 76);
             this.label2.TabIndex = 5;
             this.label2.Text = "Etiqueta viajera";
             // 
@@ -145,9 +145,9 @@
             this.PBGood.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PBGood.Enabled = false;
             this.PBGood.Image = ((System.Drawing.Image)(resources.GetObject("PBGood.Image")));
-            this.PBGood.Location = new System.Drawing.Point(1142, 302);
+            this.PBGood.Location = new System.Drawing.Point(1604, 551);
             this.PBGood.Name = "PBGood";
-            this.PBGood.Size = new System.Drawing.Size(90, 73);
+            this.PBGood.Size = new System.Drawing.Size(185, 160);
             this.PBGood.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PBGood.TabIndex = 12;
             this.PBGood.TabStop = false;
@@ -159,9 +159,9 @@
             this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(1150, 196);
+            this.pictureBox4.Location = new System.Drawing.Point(1625, 362);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(74, 46);
+            this.pictureBox4.Size = new System.Drawing.Size(144, 94);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 13;
             this.pictureBox4.TabStop = false;
@@ -169,17 +169,21 @@
             // 
             // panel1
             // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tableLayoutPanel1.SetColumnSpan(this.panel1, 6);
-            this.panel1.Location = new System.Drawing.Point(41, 455);
+            this.panel1.Location = new System.Drawing.Point(57, 842);
             this.panel1.Name = "panel1";
             this.tableLayoutPanel1.SetRowSpan(this.panel1, 2);
-            this.panel1.Size = new System.Drawing.Size(1262, 152);
+            this.panel1.Size = new System.Drawing.Size(1807, 287);
             this.panel1.TabIndex = 7;
             // 
             // panel2
             // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
             this.tableLayoutPanel1.SetColumnSpan(this.panel2, 8);
             this.panel2.Controls.Add(this.pictureBox1);
@@ -188,7 +192,7 @@
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
             this.tableLayoutPanel1.SetRowSpan(this.panel2, 2);
-            this.panel2.Size = new System.Drawing.Size(1343, 125);
+            this.panel2.Size = new System.Drawing.Size(1918, 238);
             this.panel2.TabIndex = 17;
             // 
             // pictureBox1
@@ -197,7 +201,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(21, 9);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(139, 52);
+            this.pictureBox1.Size = new System.Drawing.Size(299, 138);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
@@ -206,26 +210,27 @@
             // 
             this.lblTitulo.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblTitulo.AutoSize = true;
-            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 49.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitulo.ForeColor = System.Drawing.SystemColors.Control;
             this.lblTitulo.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.lblTitulo.Location = new System.Drawing.Point(195, 12);
+            this.lblTitulo.Location = new System.Drawing.Point(483, 12);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(306, 95);
+            this.lblTitulo.Size = new System.Drawing.Size(369, 113);
             this.lblTitulo.TabIndex = 0;
             this.lblTitulo.Text = "Station";
             this.lblTitulo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.pictureSalir);
             this.groupBox1.Controls.Add(this.lblUsuario);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(1071, 9);
+            this.groupBox1.Location = new System.Drawing.Point(1581, 42);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(252, 98);
+            this.groupBox1.Size = new System.Drawing.Size(295, 153);
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Usuario";
@@ -235,9 +240,9 @@
             this.pictureSalir.BackColor = System.Drawing.Color.White;
             this.pictureSalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureSalir.Image = ((System.Drawing.Image)(resources.GetObject("pictureSalir.Image")));
-            this.pictureSalir.Location = new System.Drawing.Point(131, 29);
+            this.pictureSalir.Location = new System.Drawing.Point(172, 29);
             this.pictureSalir.Name = "pictureSalir";
-            this.pictureSalir.Size = new System.Drawing.Size(63, 59);
+            this.pictureSalir.Size = new System.Drawing.Size(108, 101);
             this.pictureSalir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureSalir.TabIndex = 1;
             this.pictureSalir.TabStop = false;
@@ -246,26 +251,12 @@
             // lblUsuario
             // 
             this.lblUsuario.AutoSize = true;
+            this.lblUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsuario.Location = new System.Drawing.Point(7, 40);
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(79, 25);
+            this.lblUsuario.Size = new System.Drawing.Size(119, 36);
             this.lblUsuario.TabIndex = 0;
             this.lblUsuario.Text = "Usuario";
-            // 
-            // cbxRechazar
-            // 
-            this.cbxRechazar.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.tableLayoutPanel1.SetColumnSpan(this.cbxRechazar, 3);
-            this.cbxRechazar.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbxRechazar.Enabled = false;
-            this.cbxRechazar.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbxRechazar.FormattingEnabled = true;
-            this.cbxRechazar.Location = new System.Drawing.Point(449, 319);
-            this.cbxRechazar.Name = "cbxRechazar";
-            this.cbxRechazar.Size = new System.Drawing.Size(616, 39);
-            this.cbxRechazar.TabIndex = 15;
-            this.cbxRechazar.Visible = false;
-            this.cbxRechazar.SelectedIndexChanged += new System.EventHandler(this.cbxRechazar_SelectedIndexChanged);
             // 
             // btnRechazar
             // 
@@ -273,34 +264,21 @@
             this.btnRechazar.BackColor = System.Drawing.Color.Crimson;
             this.btnRechazar.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRechazar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnRechazar.Location = new System.Drawing.Point(1105, 394);
+            this.btnRechazar.Location = new System.Drawing.Point(1595, 735);
             this.btnRechazar.Name = "btnRechazar";
-            this.btnRechazar.Size = new System.Drawing.Size(163, 47);
+            this.btnRechazar.Size = new System.Drawing.Size(204, 83);
             this.btnRechazar.TabIndex = 16;
             this.btnRechazar.Text = "Rechazar";
             this.btnRechazar.UseVisualStyleBackColor = false;
             this.btnRechazar.Visible = false;
             this.btnRechazar.Click += new System.EventHandler(this.btnRechazar_Click);
             // 
-            // lblDefecto
-            // 
-            this.lblDefecto.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblDefecto.AutoSize = true;
-            this.lblDefecto.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDefecto.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblDefecto.Location = new System.Drawing.Point(304, 320);
-            this.lblDefecto.Name = "lblDefecto";
-            this.lblDefecto.Size = new System.Drawing.Size(139, 38);
-            this.lblDefecto.TabIndex = 18;
-            this.lblDefecto.Text = "Defecto:";
-            this.lblDefecto.Visible = false;
-            // 
             // lblVersion
             // 
             this.lblVersion.AutoSize = true;
             this.lblVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVersion.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblVersion.Location = new System.Drawing.Point(1071, 610);
+            this.lblVersion.Location = new System.Drawing.Point(1530, 1132);
             this.lblVersion.Name = "lblVersion";
             this.lblVersion.Size = new System.Drawing.Size(53, 20);
             this.lblVersion.TabIndex = 20;
@@ -309,13 +287,41 @@
             // lblOpcode
             // 
             this.lblOpcode.AutoSize = true;
-            this.lblOpcode.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOpcode.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOpcode.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblOpcode.Location = new System.Drawing.Point(41, 190);
+            this.lblOpcode.Location = new System.Drawing.Point(57, 354);
             this.lblOpcode.Name = "lblOpcode";
-            this.lblOpcode.Size = new System.Drawing.Size(200, 42);
+            this.lblOpcode.Size = new System.Drawing.Size(314, 69);
             this.lblOpcode.TabIndex = 19;
             this.lblOpcode.Text = "Operación";
+            // 
+            // lblDefecto
+            // 
+            this.lblDefecto.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lblDefecto.AutoSize = true;
+            this.lblDefecto.Font = new System.Drawing.Font("Microsoft Sans Serif", 31.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDefecto.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblDefecto.Location = new System.Drawing.Point(406, 599);
+            this.lblDefecto.Name = "lblDefecto";
+            this.lblDefecto.Size = new System.Drawing.Size(228, 63);
+            this.lblDefecto.TabIndex = 18;
+            this.lblDefecto.Text = "Defecto:";
+            this.lblDefecto.Visible = false;
+            // 
+            // cbxRechazar
+            // 
+            this.cbxRechazar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.SetColumnSpan(this.cbxRechazar, 3);
+            this.cbxRechazar.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxRechazar.Enabled = false;
+            this.cbxRechazar.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxRechazar.FormattingEnabled = true;
+            this.cbxRechazar.Location = new System.Drawing.Point(640, 611);
+            this.cbxRechazar.Name = "cbxRechazar";
+            this.cbxRechazar.Size = new System.Drawing.Size(884, 66);
+            this.cbxRechazar.TabIndex = 15;
+            this.cbxRechazar.Visible = false;
+            this.cbxRechazar.SelectedIndexChanged += new System.EventHandler(this.cbxRechazar_SelectedIndexChanged);
             // 
             // timerAprobacion
             // 
@@ -325,13 +331,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1349, 637);
+            this.ClientSize = new System.Drawing.Size(1924, 1175);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Final Inspection KIA";
+            this.Text = "Final Inspection Networking";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();

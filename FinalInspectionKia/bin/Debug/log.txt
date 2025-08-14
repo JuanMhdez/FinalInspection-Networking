@@ -130,3 +130,23 @@
 13/08/2025 02:59:42 p. m.: Error: Unidad en fuera de flujo IN QUEUE, A754
 13/08/2025 03:35:20 p. m.: Unidad en fuera de flujo IN QUEUE, A754
 13/08/2025 03:35:20 p. m.: Error: Unidad en fuera de flujo IN QUEUE, A754
+14/08/2025 12:43:13 p. m.: Error al consultar el serial No information found for serial number 'dsfs'
+14/08/2025 12:43:13 p. m.: Error: Error al consultar el serial No information found for serial number 'dsfs'
+14/08/2025 12:44:05 p. m.: Error al consultar el serial No information found for serial number 'adas'
+14/08/2025 12:44:05 p. m.: Error: Error al consultar el serial No information found for serial number 'adas'
+14/08/2025 12:44:50 p. m.: Error al consultar el serial No information found for serial number 'fgfd'
+14/08/2025 12:44:50 p. m.: Error: Error al consultar el serial No information found for serial number 'fgfd'
+14/08/2025 12:45:10 p. m.: Error al consultar el serial No information found for serial number 'kugjhk'
+14/08/2025 12:45:10 p. m.: Error: Error al consultar el serial No information found for serial number 'kugjhk'
+14/08/2025 12:46:15 p. m.: Error al consultar el serial No information found for serial number 'gfdrf'
+14/08/2025 12:46:15 p. m.: Error: Error al consultar el serial No information found for serial number 'gfdrf'
+14/08/2025 12:46:35 p. m.: Error al consultar el serial No information found for serial number 'kjgvhj'
+14/08/2025 12:46:35 p. m.: Error: Error al consultar el serial No information found for serial number 'kjgvhj'
+14/08/2025 12:47:11 p. m.: Error al consultar el serial No information found for serial number 'kugvhj'
+14/08/2025 12:47:11 p. m.: Error: Error al consultar el serial No information found for serial number 'kugvhj'
+14/08/2025 12:48:29 p. m.: Error al consultar el serial No information found for serial number 'kjgjk'
+14/08/2025 12:48:29 p. m.: Error: Error al consultar el serial No information found for serial number 'kjgjk'
+14/08/2025 12:52:55 p. m.: Error al consultar el serial No information found for serial number 'ghfg'
+14/08/2025 12:52:55 p. m.: Error: Error al consultar el serial No information found for serial number 'ghfg'
+14/08/2025 12:56:51 p. m.: Error al consultar el serial No information found for serial number 'fds'
+14/08/2025 12:56:51 p. m.: Error: Error al consultar el serial No information found for serial number 'fds'

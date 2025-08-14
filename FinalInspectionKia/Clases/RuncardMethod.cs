@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using FinalInspectionKia.INIFILES;
-using FinalInspectionKia.Runcard;
+using FinalInspectionNET.Runcard;
 
 namespace FinalInspectionKia.Clases
 {
